@@ -21,7 +21,7 @@
   <body>
     <div class="container"
       <div class="row">
-        <div class="col s12 m8 l6">
+        <div class="col s12">
             <div class="card-panel grey lighten-5 z-depth-1">
               <div class="row valign-wrapper">
                 <div class="col s2">
@@ -37,16 +37,16 @@
             </div>
           </div>
 
-          <div class="col s12 m4 l4">
-            <div class="card-panel grey lighten-5 z-depth-1">
-              <div class="row valign-wrapper">
-                <div class="col s12">Challenge #1</div>
-              </div>
-
+          <div class="col s12 m5 l6">
+            <div class="card-panel teal">
+              <h1 class="center black-text">Hello World!</h1>
             </div>
           </div>
 
-      </div>
+      </div> <!--end row-->
+
+
+
     </div>
   </body>
 </html>
