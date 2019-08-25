@@ -12,7 +12,7 @@
         background-color: #757575;
       }
 
-      h2 {
+      h1, h2 {
         font-family: 'Lobster', cursive;
       }
     </style>
