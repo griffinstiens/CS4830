@@ -39,7 +39,8 @@
                 <div class="col s10">
                   <h2 class="black-text">Griffin C. Stiens</h2><br>
                   <span class="black-text">
-                    This will serve as the hub for all projects completed in CS4830.
+                    This will serve as the hub for all projects completed in CS4830. Click the "Challenge 1" button below
+                    to see the first challenge!
                   </span>
                 </div>
               </div>
