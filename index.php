@@ -7,13 +7,22 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <style>
       body {
         background-color: #757575;
       }
 
-      h1, h2 {
+      p, h1, h2 {
         font-family: 'Lobster', cursive;
+      }
+
+      div.card-panel.test {
+        width: 300px;
+        height: 80px;
+        margin: 0px;
+        padding-top: 1px;
       }
     </style>
     <title>CS4830</title>
@@ -38,21 +47,12 @@
           </div>
 
           <div class="col s12 m5 l6">
-            <div class="card-panel teal">
-              <h1 class="center black-text">Hello World!</h1>
+            <div class="card-panel test">
+              <p class="center black-text flow-text"><a href="pages/firstChallenge.html">Challenge 1</a></p>
             </div>
           </div>
 
-          <!-- Element Showed -->
-            <a id="menu" class="waves-effect waves-light btn btn-floating" ><i class="material-icons">menu</i></a>
 
-            <!-- Tap Target Structure -->
-            <div class="tap-target" data-target="menu">
-              <div class="tap-target-content">
-                <h5>Title</h5>
-                <p>A bunch of text</p>
-              </div>
-            </div>
 
       </div> <!--end row-->
 
@@ -60,8 +60,6 @@
 
     </div>
     <script>
-    M.AutoInit();
-
 
     </script>
   </body>
