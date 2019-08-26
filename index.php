@@ -43,10 +43,26 @@
             </div>
           </div>
 
+          <!-- Element Showed -->
+            <a id="menu" class="waves-effect waves-light btn btn-floating" ><i class="material-icons">menu</i></a>
+
+            <!-- Tap Target Structure -->
+            <div class="tap-target" data-target="menu">
+              <div class="tap-target-content">
+                <h5>Title</h5>
+                <p>A bunch of text</p>
+              </div>
+            </div>
+
       </div> <!--end row-->
 
 
 
     </div>
+    <script>
+    M.AutoInit();
+
+
+    </script>
   </body>
 </html>
