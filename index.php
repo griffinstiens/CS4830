@@ -51,6 +51,9 @@
             <div class="card-panel test">
               <p class="center black-text flow-text"><a href="pages/firstChallenge.html">Challenge 1</a></p>
             </div>
+            <div class="card-panel test">
+              <p class="center black-text flow-text"><a href="pages/challenge2/index.php">Challenge 2</a></p>
+            </div>
           </div>
 
 
