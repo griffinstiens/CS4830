@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -29,7 +30,6 @@
         text-transform: uppercase;
         vertical-align: middle;
         -webkit-tap-highlight-color: transparent;
-        background-color: #4dd0e1;
       }
     </style>
   </head>
