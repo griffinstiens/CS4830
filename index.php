@@ -22,7 +22,7 @@
         width: 300px;
         height: 80px;
         margin: 0px;
-        padding-top: 20px;
+        padding-top: 1px;
       }
     </style>
     <title>CS4830</title>
@@ -51,6 +51,7 @@
             <div class="card-panel test">
               <p class="center black-text flow-text"><a href="pages/firstChallenge.html">Challenge 1</a></p>
             </div>
+            <br>
             <div class="card-panel test">
               <p class="center black-text flow-text"><a href="pages/challenge2/index.php">Challenge 2</a></p>
             </div>
