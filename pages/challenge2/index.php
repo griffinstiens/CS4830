@@ -5,7 +5,11 @@ $bytes = filesize("wallpaper1.png");
 
 if ($bytes >= 1024) {
   $bytes = number_format($bytes / 1024, 2) . ' KB';
-} else {
+}
+elseif ($bytes >= 1048576) {
+  $bytes = number_format($bytes / 1048576, 2) . ' MB';
+}
+else {
   $bytes = 0;
 }
 echo "Size is : " . $bytes . "<br>";
