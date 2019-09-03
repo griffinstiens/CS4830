@@ -22,7 +22,7 @@
         width: 300px;
         height: 80px;
         margin: 0px;
-        padding-top: 1px;
+        padding-top: 20px;
       }
     </style>
     <title>CS4830</title>
