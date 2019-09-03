@@ -18,6 +18,18 @@
         font-family: 'Quicksand', sans-serif;
 
       }
+
+      button {
+        border: none;
+        border-radius: 2px;
+        display: inline-block;
+        height: 36px;
+        line-height: 36px;
+        padding: 0 16px;
+        text-transform: uppercase;
+        vertical-align: middle;
+        -webkit-tap-highlight-color: transparent;
+      }
     </style>
   </head>
   <body>
@@ -36,8 +48,8 @@
           a success message, go to the 'Results' page to see your image.</p>
           <form action="scripts/add_image.php" method="post" enctype="multipart/form-data">
               Select image to upload:
-              <input type="file" name="fileToUpload" id="fileToUpload">
-              <input type="submit" value="Upload Image" name="submit">
+              <button type="file" name="fileToUpload" id="fileToUpload">
+              <button type="submit" value="Upload Image" name="submit">
           </form>
         </div>
 
