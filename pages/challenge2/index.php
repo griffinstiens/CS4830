@@ -22,6 +22,7 @@ echo "Image type :" . $type . "<br>";
 echo "Image attribute :" .$attr;
 
 ?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>

@@ -2,10 +2,9 @@
 require_once('../db/config.php');
 $conn = connectDB();
 
-$imageName = $_POST['imageName'];
+$imageName = getimagesize('fileToUpload');
 $imagePath = $_POST['imagePath'];
-$imageSize = getimagesize('http://www.example.com/gifs/logo.gif');
-echo $imageSize;
+$imageSize = filesize('');
 $imageType = $_POST['imageType'];
 $imageDate = $_POST['imageDate'];
 
