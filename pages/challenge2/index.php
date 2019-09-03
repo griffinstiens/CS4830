@@ -6,12 +6,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Lexend+Zetta&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Zetta|Quicksand&display=swap" rel="stylesheet">
 
     <title>Image Uploader</title>
     <style>
       h1 {
         font-family: 'Lexend Zetta', sans-serif;
+      }
+
+      p {
+        font-family: 'Quicksand', sans-serif;
 
       }
     </style>
@@ -20,7 +24,7 @@
     <nav>
       <div class="nav-wrapper">
         <ul id="nav-mobile" class="left hide-on-med-and-down">
-          <li><a href="sass.html">Results</a></li>
+          <li><a href="results.php">Results</a></li>
         </ul>
       </div>
     </nav>
