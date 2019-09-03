@@ -34,6 +34,11 @@
     </style>
   </head>
   <body>
+    <?php
+    $imageSize = getimagesize('http://www.example.com/gifs/logo.gif');
+    echo $imageSize;
+
+    ?>
     <nav>
       <div class="nav-wrapper">
         <ul id="nav-mobile" class="left hide-on-med-and-down">
