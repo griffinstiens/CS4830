@@ -69,7 +69,7 @@ echo "Image attribute :" .$attr;
     <div class="container">
       <div class="row">
         <div class="col s12">
-          <h1 class="center">Challenge 2</h1>
+          <h1 class="center">Challen ge 2</h1>
           <p class="flow-text">Here is the second challenge. Click the button below to upload an image! After you receive
           a success message, go to the 'Results' page to see your image.</p>
           <form action="scripts/add_image.php" method="post" enctype="multipart/form-data">
