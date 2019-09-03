@@ -1,8 +1,14 @@
 <?php
 list($size, $width, $height, $type, $attr) = getimagesize("wallpaper1.png");
-
+$bytes = filesize("wallpaper1.png");
 // Displaying dimensions of the image
-echo "Size is : " . filesize("wallpaper1.png") . "<br>";
+
+if ($bytes >= 1024) {
+  $bytes = number_format($bytes / 1024, 2) . ' KB';
+} else {
+  $bytes = 0;
+}
+echo "Size is : " . $bytes . "<br>";
 echo "Width of image : " . $width . "<br>";
 
 echo "Height of image : " . $height . "<br>";
