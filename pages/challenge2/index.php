@@ -15,7 +15,7 @@
           <h1 class="center">Challenge 2</h1>
           <p class="flow-text">Here is the second challenge. Click the button below to upload an image! After you receive
           a success message, go to the 'Results' page to see your image.</p>
-          <form action="upload.php" method="post" enctype="multipart/form-data">
+          <form action="scripts/add_image.php" method="post" enctype="multipart/form-data">
               Select image to upload:
               <input type="file" name="fileToUpload" id="fileToUpload">
               <input type="submit" value="Upload Image" name="submit">
