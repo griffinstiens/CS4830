@@ -1,6 +1,14 @@
 <?php
-$imageSize = getimagesize('http://www.example.com/gifs/logo.gif');
-echo "$imageSize";
+list($width, $height, $type, $attr) = getimagesize("geeks.png");
+
+// Displaying dimensions of the image
+echo "Width of image : " . $width . "<br>";
+
+echo "Height of image : " . $height . "<br>";
+
+echo "Image type :" . $type . "<br>";
+
+echo "Image attribute :" .$attr; 
 
 ?>
 <!DOCTYPE html>
@@ -55,7 +63,7 @@ echo "$imageSize";
           <form action="scripts/add_image.php" method="post" enctype="multipart/form-data">
               Select image to upload:
               <input type="file" name="fileToUpload" id="fileToUpload">
-              <input type="submit" name="submit">Upload</input>
+              <input type="submit" name="submit">
           </form>
         </div>
 
