@@ -19,7 +19,7 @@
 
       }
 
-      button {
+      input {
         border: none;
         border-radius: 2px;
         display: inline-block;
@@ -48,8 +48,8 @@
           a success message, go to the 'Results' page to see your image.</p>
           <form action="scripts/add_image.php" method="post" enctype="multipart/form-data">
               Select image to upload:
-              <button type="file" name="fileToUpload" id="fileToUpload">Select Image</button>
-              <button type="submit" value="Upload Image" name="submit">Upload</button>
+              <input type="file" name="fileToUpload" id="fileToUpload">
+              <input type="submit" value="Upload Image" name="submit">
           </form>
         </div>
 
