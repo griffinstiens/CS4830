@@ -1,5 +1,5 @@
 <?php
-list($width, $height, $type, $attr) = getimagesize("geeks.png");
+list($width, $height, $type, $attr) = getimagesize("wallpaper1.png");
 
 // Displaying dimensions of the image
 echo "Width of image : " . $width . "<br>";
@@ -8,7 +8,7 @@ echo "Height of image : " . $height . "<br>";
 
 echo "Image type :" . $type . "<br>";
 
-echo "Image attribute :" .$attr; 
+echo "Image attribute :" .$attr;
 
 ?>
 <!DOCTYPE html>
