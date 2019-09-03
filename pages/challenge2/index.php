@@ -29,6 +29,7 @@
         text-transform: uppercase;
         vertical-align: middle;
         -webkit-tap-highlight-color: transparent;
+        background-color: #4dd0e1;
       }
     </style>
   </head>
@@ -49,7 +50,7 @@
           <form action="scripts/add_image.php" method="post" enctype="multipart/form-data">
               Select image to upload:
               <input type="file" name="fileToUpload" id="fileToUpload">
-              <input type="submit" value="Upload Image" name="submit">
+              <input type="submit" name="submit">Upload</input>
           </form>
         </div>
 
