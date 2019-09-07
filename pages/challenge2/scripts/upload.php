@@ -21,7 +21,6 @@ if (isset($_POST['submit'])) {
       if ($file_size < 1000000) {
         $new_file_name = uniqid('', true).".".$file_Actual_Ext;
         $target_destination = '../uploads/'.$new_file_name;
-        move_uploaded_file($fileTmpName, $target_destination);
 
         $sql = "INSERT INTO images (file_path, file_size, file_type, file_data) VALUES ('$target_destination', '$file_size', '$file_type','$file_data')";
         $stmt = $conn->stmt_init();
