@@ -44,17 +44,6 @@ echo "Image attribute :" .$attr;
 
       }
 
-      input {
-        border: none;
-        border-radius: 2px;
-        display: inline-block;
-        height: 36px;
-        line-height: 36px;
-        padding: 0 16px;
-        text-transform: uppercase;
-        vertical-align: middle;
-        -webkit-tap-highlight-color: transparent;
-      }
     </style>
   </head>
   <body>
@@ -72,10 +61,10 @@ echo "Image attribute :" .$attr;
           <h1 class="center">Challenge 2</h1>
           <p class="flow-text">Here is the second challenge. Click the button below to upload an image! After you receive
           a success message, go to the 'Results' page to see your image.</p>
-          <form action="scripts/add_image.php" method="post" enctype="multipart/form-data">
+          <form action="scripts/upload.php" method="post" enctype="multipart/form-data">
               Select image to upload:
-              <input type="file" name="fileToUpload" id="fileToUpload">
-              <input type="submit" name="submit">
+              <input type="file" name="file">
+              <input type="submit" name="submit" value="Upload">
           </form>
         </div>
 
