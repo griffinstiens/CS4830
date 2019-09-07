@@ -36,4 +36,4 @@ function connectDB(){
   return $conn;
 }
 
-?> */
+?>
