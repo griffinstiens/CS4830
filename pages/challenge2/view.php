@@ -11,7 +11,7 @@
   if ($query) {
     while ($row = mysqli_fetch_array($query)) {
         $id = $row['id'];
-          echo "<img src='".$row['image_path']."'$image_name />";
+          echo "<img src='".$row['image_path.$image_name']."' />";
 
     }
   } else {
