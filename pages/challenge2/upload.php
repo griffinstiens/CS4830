@@ -17,7 +17,7 @@ if (isset($_POST['submit'])) {
 
   if($sql) {
     header("Location: index.php");
-    echo "<h3 class='center'>Success!</h3>"
+    echo "<h3 class='center'>Success!</h3>";
   } else {
     echo "pls work";
   }
