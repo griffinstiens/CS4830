@@ -26,6 +26,7 @@ if (isset($_POST['submit'])) {
         $stmt->execute();
 
         header("Location: ../index.php");
+        echo "Success";
       } else {
         echo "Your file is too big";
       }
