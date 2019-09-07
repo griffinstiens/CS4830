@@ -8,17 +8,21 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lexend+Zetta|Quicksand&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <title>Challenge 2</title>
   </head>
   <body>
     <nav>
-       <div class="nav-wrapper">
-         <ul id="nav-mobile" class="left hide-on-med-and-down">
-           <li><a href="view.php">View</a></li>
-           <div class="brand-logo center">Challenge 2</div>
-         </ul>
-       </div>
-     </nav>
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo center">Challenge 2</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="left hide-on-med-and-down">
+          <li><a href="view.php">View</a></li>
+          <li><a href="about.html">About This Project</a></li>
+        </ul>
+      </div>
+    </nav>
     <div class="container">
       <div class="row">
         <div class="col s12">
