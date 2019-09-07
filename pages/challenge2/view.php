@@ -8,14 +8,11 @@
         die ('SQL error: ' . mysqli_error($conn));
       }
 
-  if ($query) {
-    while ($row = mysqli_fetch_array($query)) {
-        $id = $row['id'];
-          echo "<img src='".$row['image_path']."' />";
+$result = mysql_query("SELECT * FROM images");
 
-    }
-  } else {
-    echo "No images found in server :(";
+  while($row = mysql_fetch_array($result))
+  {
+    echo "<img src='".$row['image']."' />";
   }
 
 
