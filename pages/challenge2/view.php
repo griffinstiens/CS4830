@@ -2,7 +2,7 @@
   require_once('db/config.php');
   $conn = connectDB();
 
-  $result = $db->query("SELECT image_path FROM images WHERE id = {$_GET['id']}");
+  $result = mysqli_query("SELECT image_path FROM images WHERE id = {$_GET['id']}");
 
   if($result->num_rows > 0){
        $imgData = $result->fetch_assoc();
