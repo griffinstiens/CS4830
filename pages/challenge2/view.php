@@ -4,12 +4,14 @@
       $conn = connectDB();
 
       //Get image data from database
-      $query = mysqli_query($conn, "SELECT image_name, image_path FROM images");
+      $query = mysqli_query($conn, "SELECT * FROM images");
 
       while($rows = mysqli_fetch_array($query))
       {
         $image_name = $rows['image_name'];
         $image_path = $rows['image_path'];
+        $image_type = $rows['image_type'];
+        $image_size = $rows['image_size'];
 
 ?>
 <!DOCTYPE html>
@@ -29,6 +31,9 @@
     <div class="container">
       <img src="<?php echo $image_path; ?>" alt="" title="<?php echo $image_name; ?>" />
 	     <p><strong><?php echo $image_name; ?></strong></p>
+       <p><strong><?php echo $image_type; ?></strong></p>
+       <p><strong><?php echo $image_size; ?></strong></p>
+
     </div>
   </body>
 </html>
