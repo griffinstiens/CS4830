@@ -19,13 +19,17 @@ if (isset($_POST['submit'])) {
   if (in_array($file_Actual_Ext, $allow)) {
     if ($file_error === 0) {
       if ($file_size < 1000000) {
-        $sql = "INSERT INTO images (file_path, file_size, file_type, file_data) VALUES ('$file_path', '$file_size', '$file_type','$file_data')";
+        $new_file_name = uniqid('', true).".".$file_Actual_Ext;
+        $target_destination = '../uploads/'.$new_file_name;
+        move_uploaded_file($fileTmpName, $target_destination);
+
+        $sql = "INSERT INTO images (file_path, file_size, file_type, file_data) VALUES ('$target_destination', '$file_size', '$file_type','$file_data')";
         $stmt = $conn->stmt_init();
         $stmt->prepare($sql);
         $stmt->bind_param('sis', $file_path, $file_size, $file_type);
         $stmt->execute();
 
-        header("Location: ../index.php");
+        header("Location: ../index.php?uploadSuccess");
         echo "Success";
       } else {
         echo "Your file is too big";
