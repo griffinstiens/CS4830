@@ -10,7 +10,7 @@
 
 $result = mysqli_query("SELECT * FROM images");
 
-  while($row = mysql_fetch_array($result))
+  while($row = mysqli_fetch_array($result))
   {
     echo "<img src='".$row['image']."' />";
   }
