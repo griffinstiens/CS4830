@@ -18,7 +18,7 @@ if (isset($_POST['submit'])) {
 
   if (in_array($file_Actual_Ext, $allow)) {
     if ($file_error === 0) {
-      if ($file_siez < 1000000) {
+      if ($file_size < 1000000) {
         $sql = "INSERT INTO images (file_path, file_size, file_type, file_data) VALUES ('$file_path', '$file_size', '$file_type','$file_data')";
         $stmt = $conn->stmt_init();
         $stmt->prepare($sql);
