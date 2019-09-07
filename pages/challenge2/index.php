@@ -1,3 +1,16 @@
+<?php
+require_once('db/config.php');
+$conn = connectDB();
+
+function connectDB(){
+  $conn = new mysqli(HOST, USERNAME, PASSWORD, DBNAME);
+  if ($conn->connect_error) {
+      die("Connection failed: " . $conn->connect_error);
+  }
+  return $conn;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
