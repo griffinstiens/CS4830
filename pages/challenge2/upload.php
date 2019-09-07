@@ -4,14 +4,14 @@ $conn = connectDB();
 
 if (isset($_POST['submit'])) {
   $image_name = $_FILES['file']['name'];
-  $fileTmpName = $_FILES['file']['tmp_name'];
+  $image_temp = $_FILES['file']['tmp_name'];
   $image_type = $_FILES['file']['type'];
   $image_size = $_FILES['file']['size'];
   $file_error = $_FILES['file']['error'];
   // $file_data = time();
   $image_path = 'uploads/'.$image_name;
 
-  move_uploaded_file($fileTmpName, $image_path);
+  move_uploaded_file($image_temp, $image_path.'/'.$image_name);
   $sql = mysqli_query($conn, "INSERT INTO images (image_name, image_path, image_type, image_size) VALUES ('image_name', 'image_path', 'image_type','image_size')");
 
   if($sql) {
