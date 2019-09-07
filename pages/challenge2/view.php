@@ -27,8 +27,8 @@
   </head>
   <body>
     <div class="container">
-      <img src="<?php echo $image_path; ?>" alt="" title="<?php echo $image_name; ?>" width="300" height="200" class="responsive-img" />
-      <p><strong><?php echo $image_name; ?></strong></p>
+      <img src="<?php echo $image_path; ?>" alt="" title="<?php echo $image_name; ?>" />
+	     <p><strong><?php echo $image_name; ?></strong></p>
     </div>
   </body>
 </html>
