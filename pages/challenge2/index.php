@@ -39,7 +39,7 @@
           a success message, go to the 'Results' page to see your image.</p>
           <form action="scripts/upload.php" method="post" enctype="multipart/form-data">
               Select image to upload:
-              <input type="file" name="UploadImage">
+              <input type="file" name="file">
               <input type="submit" name="submit" value="Upload">
           </form>
         </div>

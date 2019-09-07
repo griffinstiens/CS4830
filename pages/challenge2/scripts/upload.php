@@ -2,63 +2,40 @@
 require_once('../db/config.php');
 $conn = connectDB();
 
-list($size, $width, $height, $type, $attr) = getimagesize("file");
-$file_size = filesize("file");
+if (isset($_POST['submit'])) {
+  $file = $_FILES['file'];
+  $file_name = $_FILES['file']['name'];
+  $fileTmpName = $_FILES['file']['tmp_name'];
+  $file_type = $_FILES['file']['type'];
+  $file_size = $_FILES['file']['size'];
+  $file_error = $_FILES['file']['error'];
+  $file_data = time();
 
-if ($file_size >= 1024) {
-  $file_size = number_format($file_size / 1024, 2) . ' KB';
-}
-elseif ($file_size >= 1048576) {
-  $file_size = number_format($file_size / 1048576, 2) . ' MB';
-}
-else {
-  $file_size = 0;
-}
-// echo "Size is : " . $bytes . "<br>";
-// echo "Image type :" . $type . "<br>";
-// echo "Image attribute :" .$attr;
+  $file_Ext = explode('.', $file_name);
+  $file_Actual_Ext = strtolower(end($file_Ext));
 
-$file_path = 'uploads/';
-$type = $file_type;
-$file_date = time();
-$destination = "uploads/";
-$target_file = $destination . basename($_FILES["UploadFile"]["name"]);
-$uploadOK = 1;
+  $allow = array('jpg','jpeg','png');
 
-$imageType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
-// Check if image file is a actual image or fake image
-if(isset($_POST["submit"])) {
-    $check = getimagesize($_FILES["UploadFile"]["tmp_name"]);
-    if($check !== false) {
-        echo "File is an image - " . $check["mime"] . ".";
-        $uploadOk = 1;
+  if (in_array($file_Actual_Ext, $allow)) {
+    if ($file_error === 0) {
+      if ($file_siez < 1000000) {
+        $sql = "INSERT INTO images (file_path, file_size, file_type, file_data) VALUES ('$file_path', '$file_size', '$file_type','$file_data')";
+        $stmt = $conn->stmt_init();
+        $stmt->prepare($sql);
+        $stmt->bind_param('sis', $file_path, $file_size, $file_type);
+        $stmt->execute();
+      } else {
+        echo "Your file is too big";
+      }
     } else {
-        echo "File is not an image.";
-        $uploadOk = 0;
+      echo "There was an error uploading your image.";
     }
-}
 
-// Check if file already exists
-if (file_exists($target_file)) {
-    echo "Sorry, file already exists.";
-    $uploadOk = 0;
-}
+  } else {
+    echo "Unsupported file type. Please only upload .jpg,.jpeg,.png";
+  }
 
-// Allow certain file formats
-if($file_type != "jpg" && $file_type != "png" && $file_type != "jpeg"
-&& $file_type != "gif" ) {
-    echo "Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
-    $uploadOk = 0;
-}
-
-if ($uploadOK === 0) {
-  echo "Image upload unsuccessful.";
-} else {
-
-}
-
-
-header("Location: ../index.php");
+} //end isset
 
 
 
