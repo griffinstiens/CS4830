@@ -10,9 +10,9 @@ if (isset($_POST['submit'])) {
   $image_size = $_FILES['file']['size'];
   $file_error = $_FILES['file']['error'];
   // $file_data = time();
-  $image_path = 'uploads/'.$file_name;
+  $image_path = 'uploads/'.$image_name;
 
-  move_uploaded_file($fileTmpName, $file_path);
+  move_uploaded_file($fileTmpName, $image_path);
   $sql = "INSERT INTO images (image_name, image_path, image_type, image_size) VALUES ('image_name', 'image_path', 'image_type','image_size')";
 
   if(mysqli_query($sql)) {
