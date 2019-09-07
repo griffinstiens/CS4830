@@ -28,7 +28,7 @@ if(isset($_POST["submit"])){
         //Insert image content into database
         $insert = $db->query("INSERT into images (image, created) VALUES ('$imgContent', '$dataTime')");
         if($insert){
-            echo "File uploaded successfully.";
+            header("Location: ../results.php");
         }else{
             echo "File upload failed, please try again.";
         }
