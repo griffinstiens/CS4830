@@ -8,7 +8,7 @@
         die ('SQL error: ' . mysqli_error($conn));
       }
 
-$result = mysql_query("SELECT * FROM images");
+$result = mysqli_query("SELECT * FROM images");
 
   while($row = mysql_fetch_array($result))
   {
