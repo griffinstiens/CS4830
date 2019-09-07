@@ -1,31 +1,42 @@
 <?php
-require_once('../db/config.php');
-$conn = connectDB();
+if(isset($_POST["submit"])){
+    $check = getimagesize($_FILES["image"]["tmp_name"]);
+    if($check !== false){
+        $image = $_FILES['image']['tmp_name'];
+        $imgContent = addslashes(file_get_contents($image));
 
-if (isset($_POST['submit'])) {
-  $file = $_FILES['file'];
-  $file_name = $_FILES['file']['name'];
-  $fileTmpName = $_FILES['file']['tmp_name'];
-  $file_type = $_FILES['file']['type'];
-  $file_size = $_FILES['file']['size'];
-  $file_error = $_FILES['file']['error'];
-  $file_data = time();
-  $file_path = '../uploads';
+        /*
+         * Insert image data into database
+         */
 
-  move_uploaded_file($fileTmpName, $file_path.'/'.$file_name);
-  $sql = "INSERT INTO images (file_path, file_size, file_type, file_data) VALUES ('$file_path', '$file_size', '$file_type','$file_data')";
+        //DB details
+        $dbHost     = 'localhost';
+        $dbUsername = 'griffin';
+        $dbPassword = 'test';
+        $dbName     = 'CS4830';
 
-  if(mysqli_query($sql)) {
-    echo "Success!";
-  } else {
-    echo "Fuck pls work";
-  }
+        //Create connection and select DB
+        $db = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
 
-  if (empty($_FILES['file'])) {
-    echo "<h3 class='center'>You must select an image to upload.</h3>"
-  } else {
+        // Check connection
+        if($db->connect_error){
+            die("Connection failed: " . $db->connect_error);
+        }
 
-  }
+        $dataTime = date("Y-m-d H:i:s");
+
+        //Insert image content into database
+        $insert = $db->query("INSERT into images (image, created) VALUES ('$imgContent', '$dataTime')");
+        if($insert){
+            echo "File uploaded successfully.";
+        }else{
+            echo "File upload failed, please try again.";
+        }
+    }else{
+        echo "Please select an image file to upload.";
+    }
+}
+?>
 
 
 
@@ -68,12 +79,10 @@ if (isset($_POST['submit'])) {
 
 
 
-function connectDB(){
+<!-- function connectDB(){
   $conn = new mysqli(HOST, USERNAME, PASSWORD, DBNAME);
   if ($conn->connect_error) {
       die("Connection failed: " . $conn->connect_error);
   }
   return $conn;
-}
-
-?>
+} -->
