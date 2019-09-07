@@ -43,7 +43,7 @@ if(isset($_POST["submit"])){
 
 
 
-  //
+  <!-- //
   // $file_Ext = explode('.', $file_name);
   // $file_Actual_Ext = strtolower(end($file_Ext));
   //
@@ -72,7 +72,7 @@ if(isset($_POST["submit"])){
   //   echo "Unsupported file type. Please only upload .jpg,.jpeg,.png";
   // }
 
-} //end isset
+} //end isset -->
 
 
 
