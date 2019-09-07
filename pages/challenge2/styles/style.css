@@ -1,12 +1,16 @@
-h1 {
+h3 {
   font-family: 'Lexend Zetta', sans-serif;
 }
 
-p {
+p, span {
   font-family: 'Quicksand', sans-serif;
 
 }
 
 nav {
   background-color: grey;
+}
+img {
+  width: 400px;
+  height: 200px;
 }
