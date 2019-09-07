@@ -1,39 +1,29 @@
 <?php
-if(isset($_POST["submit"])){
-    $check = getimagesize($_FILES["image"]["tmp_name"]);
-    if($check !== false){
-        $image = $_FILES['image']['tmp_name'];
-        $imgContent = addslashes(file_get_contents($image));
+$statusMsg = '';
 
-        /*
-         * Insert image data into database
-         */
+//file upload path
+$targetDir = "../uploads/";
+$fileName = basename($_FILES["file"]["name"]);
+$targetFilePath = $targetDir . $fileName;
+$fileType = pathinfo($targetFilePath,PATHINFO_EXTENSION);
 
-        //DB details
-        $dbHost     = 'localhost';
-        $dbUsername = 'griffin';
-        $dbPassword = 'test';
-        $dbName = 'CS4830';
-
-        //Create connection and select DB
-        $db = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
-
-        // Check connection
-        if($db->connect_error){
-            die("Connection failed: " . $db->connect_error);
-        }
-
-        $dataTime = date("Y-m-d H:i:s");
-
-        //Insert image content into database
-        $insert = $db->query("INSERT into images (image, created) VALUES ('$imgContent', '$dataTime')");
-        if($insert){
-            echo "File uploaded successfully.";
+if(isset($_POST["submit"]) && !empty($_FILES["file"]["name"])) {
+    //allow certain file formats
+    $allowTypes = array('jpg','png','jpeg','gif','pdf');
+    if(in_array($fileType, $allowTypes)){
+        //upload file to server
+        if(move_uploaded_file($_FILES["file"]["tmp_name"], $targetFilePath)){
+            $statusMsg = "The file ".$fileName. " has been uploaded.";
         }else{
-            echo "File upload failed, please try again.";
+            $statusMsg = "Sorry, there was an error uploading your file.";
         }
     }else{
-        echo "Please select an image file to upload.";
+        $statusMsg = 'Sorry, only JPG, JPEG, PNG, GIF, & PDF files are allowed to upload.';
     }
+}else{
+    $statusMsg = 'Please select a file to upload.';
 }
+
+//display status message
+echo $statusMsg;
 ?>
