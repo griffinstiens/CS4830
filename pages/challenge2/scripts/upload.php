@@ -12,10 +12,10 @@ if (isset($_POST['submit'])) {
   $file_data = time();
   $file_path = '../uploads';
 
-  move_uploaded_file($fileTmpName, $file_path.'/');
+  move_uploaded_file($fileTmpName, $file_path.'/'.$file_name);
   $sql = "INSERT INTO images (file_path, file_size, file_type, file_data) VALUES ('$target_destination', '$file_size', '$file_type','$file_data')";
 
-  if(mysql_query($sql)) {
+  if(mysqli_query($sql)) {
     echo "Success!";
   } else {
     echo "Fuck pls work";
