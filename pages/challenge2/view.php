@@ -10,7 +10,7 @@
       {
         $image_name = $rows['image_name'];
         $image_path = $rows['image_path'];
-      }
+
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -33,18 +33,8 @@
   </body>
 </html>
 
-
-
-
-
-
-
-
-
-
-
-
 <?php
+}
   function connectDB(){
     $conn = new mysqli(HOST, USERNAME, PASSWORD, DBNAME);
     if ($conn->connect_error) {
