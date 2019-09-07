@@ -15,7 +15,7 @@ if (isset($_POST['submit'])) {
   move_uploaded_file($fileTmpName, $image_path);
   $sql = "INSERT INTO images (image_name, image_path, image_type, image_size) VALUES ('image_name', 'image_path', 'image_type','image_size')";
 
-  if(mysqli_query($sql, $conn)) {
+  if(mysqli_query($conn, $sql)) {
     echo "Success!";
   } else {
     echo "Fuck pls work";
