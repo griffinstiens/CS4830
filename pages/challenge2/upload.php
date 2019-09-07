@@ -3,7 +3,6 @@ require_once('db/config.php');
 $conn = connectDB();
 
 if (isset($_POST['submit'])) {
-  $file = $_FILES['file'];
   $image_name = $_FILES['file']['name'];
   $fileTmpName = $_FILES['file']['tmp_name'];
   $image_type = $_FILES['file']['type'];
