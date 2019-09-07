@@ -12,7 +12,7 @@ if(isset($_POST["submit"])){
         //DB details
         $dbHost     = 'localhost';
         $dbUsername = 'griffin';
-        $dbPassword = 'test'
+        $dbPassword = 'test';
         $dbName = 'CS4830';
 
         //Create connection and select DB
