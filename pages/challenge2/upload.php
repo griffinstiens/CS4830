@@ -1,5 +1,5 @@
 <?php
-require_once('../db/config.php');
+require_once('db/config.php');
 $conn = connectDB();
 
 if (isset($_POST['submit'])) {
