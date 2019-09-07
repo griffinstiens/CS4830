@@ -7,12 +7,9 @@
       //Get image data from database
       $result = $db->query("SELECT image_path FROM images WHERE id = {$_GET['id']}");
 
-      if($result->num_rows > 0){
+      if($result->row > 0){
           $imgData = $result->fetch_assoc();
-
-          //Render image
-          header("Content-type: image/jpg");
-          echo $imgData['image_path'];
+          echo "<img src='".$row['image_path']."' />";
       }else{
           echo 'Image not found...';
       }
