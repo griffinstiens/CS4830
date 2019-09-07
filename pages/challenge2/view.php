@@ -11,13 +11,8 @@
   if ($query) {
     while ($row = mysqli_fetch_array($query)) {
         $id = $row['id'];
-          echo "<tr>
-            <td>".$row['id']."</td>
-            <td>".$row['image_name']."</td>
-            <td>".$row['image_path']."</td>
-            <td>".$row['image_type']."</td>
-            <td>".$row['image_size']."</td>
-          </tr>";
+          echo "<img src='".$row['image_path']."' />";
+
     }
   } else {
     echo "No images found in server :(";
