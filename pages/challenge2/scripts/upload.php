@@ -24,6 +24,8 @@ if (isset($_POST['submit'])) {
         $stmt->prepare($sql);
         $stmt->bind_param('sis', $file_path, $file_size, $file_type);
         $stmt->execute();
+
+        header("Location: ../index.php");
       } else {
         echo "Your file is too big";
       }
