@@ -22,7 +22,7 @@ if (isset($_POST['submit'])) {
   }
 
   if (empty($_FILES['file'])) {
-    echo "<h3 class='center'>You must select an image to upload.</h3>"
+    echo "<h3 class='center'>You must select an image to upload.</h3>";
   } else {
 
   }
