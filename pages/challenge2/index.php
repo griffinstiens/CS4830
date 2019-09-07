@@ -1,27 +1,3 @@
-<?php
-list($size, $width, $height, $type, $attr) = getimagesize("wallpaper1.png");
-$bytes = filesize("wallpaper1.png");
-// Displaying dimensions of the image
-
-if ($bytes >= 1024) {
-  $bytes = number_format($bytes / 1024, 2) . ' KB';
-}
-elseif ($bytes >= 1048576) {
-  $bytes = number_format($bytes / 1048576, 2) . ' MB';
-}
-else {
-  $bytes = 0;
-}
-echo "Size is : " . $bytes . "<br>";
-echo "Width of image : " . $width . "<br>";
-
-echo "Height of image : " . $height . "<br>";
-
-echo "Image type :" . $type . "<br>";
-
-echo "Image attribute :" .$attr;
-
-?>
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -63,7 +39,7 @@ echo "Image attribute :" .$attr;
           a success message, go to the 'Results' page to see your image.</p>
           <form action="scripts/upload.php" method="post" enctype="multipart/form-data">
               Select image to upload:
-              <input type="file" name="file">
+              <input type="file" name="UploadImage">
               <input type="submit" name="submit" value="Upload">
           </form>
         </div>
