@@ -1,30 +1,38 @@
 <?php
-if(!empty($_GET['id'])){
-    //DB details
-    $dbHost     = 'localhost';
-    $dbUsername = 'griffin';
-    $dbPassword = 'test';
-    $dbName = 'CS4830';
+  require_once('db/config.php');
+  $conn = connectDB();
 
-    //Create connection and select DB
-    $db = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
+  $sql = 'SELECT * FROM images';
+      $query = mysqli_query($conn, $sql);
+      if (!$query) {
+        die ('SQL error: ' . mysqli_error($conn));
+      }
 
-    //Check connection
-    if($db->connect_error){
-       die("Connection failed: " . $db->connect_error);
+  if ($query) {
+    while ($row = mysqli_fetch_array($query)) {
+        $id = $row['id'];
+          echo "<tr>
+            <td>".$row['id']."</td>
+            <td>".$row['image_name']."</td>
+            <td>".$row['image_path']."</td>
+            <td>".$row['image_type']."</td>
+            <td>".$row['image_size']."</td>
+          </tr>";
     }
+  } else {
+    echo "No images found in server :(";
+  }
 
-    //Get image data from database
-    $result = $db->query("SELECT image FROM images WHERE id = {$_GET['id']}");
 
-    if($result->num_rows > 0){
-        $imgData = $result->fetch_assoc();
 
-        //Render image
-        header("Content-type: image/jpg");
-        echo $imgData['image'];
-    }else{
-        echo 'Image not found...';
+
+
+
+  function connectDB(){
+    $conn = new mysqli(HOST, USERNAME, PASSWORD, DBNAME);
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
     }
-}
+    return $conn;
+  }
 ?>
