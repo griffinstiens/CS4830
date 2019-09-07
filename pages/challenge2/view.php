@@ -5,7 +5,7 @@
       $conn = connectDB();
 
       //Get image data from database
-      $result = $db->query("SELECT image_path FROM images WHERE id = {$_GET['id']}");
+      $result = $db->mysqli_query("SELECT image_path FROM images WHERE id = {$_GET['id']}");
 
       if($result->row > 0){
           $imgData = $result->fetch_assoc();
