@@ -18,7 +18,7 @@ else {
 // echo "Image type :" . $type . "<br>";
 // echo "Image attribute :" .$attr;
 
-$file_path = 'uploads/'
+$file_path = 'uploads/';
 $type = $file_type;
 $file_date = time();
 $destination = "uploads/";
