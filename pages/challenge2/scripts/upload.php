@@ -1,6 +1,6 @@
 <?php
 if(isset($_POST["submit"])){
-    $check = getimagesize($_FILES['image']['tmp_name']);
+    $check = getimagesize($_FILES["image"]["tmp_name"]);
     if($check !== false){
         $image = $_FILES['image']['tmp_name'];
         $imgContent = addslashes(file_get_contents($image));
@@ -11,9 +11,9 @@ if(isset($_POST["submit"])){
 
         //DB details
         $dbHost     = 'localhost';
-        $dbUsername = 'griffin';
-        $dbPassword = 'test';
-        $dbName     = 'CS4830';
+        $dbUsername = 'root';
+        $dbPassword = '*****';
+        $dbName     = 'codexworld';
 
         //Create connection and select DB
         $db = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
@@ -28,7 +28,7 @@ if(isset($_POST["submit"])){
         //Insert image content into database
         $insert = $db->query("INSERT into images (image, created) VALUES ('$imgContent', '$dataTime')");
         if($insert){
-            header("Location: ../results.php");
+            echo "File uploaded successfully.";
         }else{
             echo "File upload failed, please try again.";
         }
