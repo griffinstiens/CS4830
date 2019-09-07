@@ -2,21 +2,18 @@
   require_once('db/config.php');
   $conn = connectDB();
 
-  $sql = 'SELECT * FROM images';
-      $query = mysqli_query($conn, $sql);
-      if (!$query) {
-        die ('SQL error: ' . mysqli_error($conn));
-      }
+  $result = $db->query("SELECT image_path FROM images WHERE id = {$_GET['id']}");
 
-  if ($query) {
-    while ($row = mysqli_fetch_array($query)) {
-        $id = $row['id'];
-          echo "<img src='".$row['image_path']."' />";
+  if($result->num_rows > 0){
+       $imgData = $result->fetch_assoc();
 
-    }
-  } else {
-    echo "No images found in server :(";
-  }
+       //Render image
+       header("Content-type: image/jpg");
+       echo $imgData['image'];
+   }else{
+       echo 'Image not found...';
+   }
+
 
 
 
