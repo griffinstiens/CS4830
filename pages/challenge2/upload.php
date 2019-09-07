@@ -12,12 +12,13 @@ if (isset($_POST['submit'])) {
   $image_path = 'uploads/';
 
   move_uploaded_file($image_temp, $image_path);
-  $sql = mysqli_query($conn, "INSERT INTO images (image_name, image_path, image_type, image_size) VALUES ('image_name', 'image_path', 'image_type','image_size')");
+  $sql = mysqli_query($conn, "INSERT INTO images (image_name, image_path, image_type, image_size)
+  VALUES ('image_name', 'image_path', 'image_type','image_size')");
 
   if($sql) {
     echo "Success!";
   } else {
-    echo "Fuck pls work";
+    echo "pls work";
   }
 
   if (empty($_FILES['file'])) {
