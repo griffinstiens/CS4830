@@ -8,12 +8,16 @@
         die ('SQL error: ' . mysqli_error($conn));
       }
 
-$result = mysqli_query("SELECT * FROM images");
+  if ($query) {
+    while ($row = mysqli_fetch_array($query)) {
+        $id = $row['id'];
+          echo "<img src='".$row['image']."' />";
 
-  while($row = mysqli_fetch_array($result))
-  {
-    echo "<img src='".$row['image']."' />";
+    }
+  } else {
+    echo "No images found in server :(";
   }
+
 
 
 
