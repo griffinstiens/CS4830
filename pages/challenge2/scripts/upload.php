@@ -21,6 +21,11 @@ if (isset($_POST['submit'])) {
     echo "Fuck pls work";
   }
 
+  if (empty($_FILES['file']['name'])) {
+    echo "<h3 class='center'>You must select an image to upload.</h3>"
+  }
+
+
 
 
 
