@@ -26,11 +26,5 @@ nav {
     color: white;
     background-color: black;
     display: inline-block;
-    border: none;
-    border-radius: 2px;
-    display: inline-block;
-    padding: 0 16px;
-    text-transform: uppercase;
-    vertical-align: middle;
-    -webkit-tap-highlight-color: transparent;
+    
 }
