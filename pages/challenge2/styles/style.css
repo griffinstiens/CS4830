@@ -35,5 +35,5 @@ nav {
   /* keeps top of the image static when image is scaling */
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-  min-height: 100vh;
+  min-height: 90vh;
 }
