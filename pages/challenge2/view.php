@@ -47,7 +47,8 @@
                 <img src="<?php echo $image_path; ?>" class="responsive-img" alt="missing image" />
               </div>
               <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Image<i class="material-icons right">more_vert</i></span>
+                <span class="card-title activator grey-text text-darken-4">Image<i class="material-icons right">settings</i></span>
+                <p class="flow-text">Please select the cog wheel to the right to display photo information.</p>
               </div>
               <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
