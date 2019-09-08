@@ -46,6 +46,9 @@
               <div class="card-image">
                 <img src="<?php echo $image_path; ?>" class="responsive-img" alt="missing image" />
               </div>
+              <div class="card-content">
+                <i class="material-icons right">more_vert</i></span>
+              </div>
               <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
                 <p><b>Name: <?php echo $image_name; ?></b></p>
