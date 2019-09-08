@@ -51,7 +51,7 @@ function connectDB(){
                 a success message, go to the 'View' page to see your image.</p>
                 <?php if(isset($_GET['success']))?><div class="success"><?php echo $_GET['success'];?></div>
                 <?php if(isset($_GET['error'])) echo $_GET['error'];?>
-
+                <?php if(isset($_GET['empty'])) echo $_GET['empty'];?>
                 <form action="upload.php" method="post" enctype="multipart/form-data">
                     Choose an Image:
                     <input type="file" name="file">
