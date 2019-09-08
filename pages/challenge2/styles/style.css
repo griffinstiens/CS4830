@@ -28,7 +28,7 @@ nav {
 }
 
 .header {
-  background-image: url("images/bg.png");
+  background-image: url("../images/bg.png");
   filter: grayscale(100%);
   background-size: cover;
   background-repeat: no-repeat;
