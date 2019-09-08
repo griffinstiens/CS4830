@@ -38,7 +38,7 @@
     <div class="container">
 
       <div class="row">
-        <div class="col s12 m6 l6">
+        <div class="col s12">
 
           <?php while($rows = mysqli_fetch_array($query))
           {
@@ -46,8 +46,6 @@
             $image_path = $rows['image_path'];
             $image_type = $rows['image_type'];
             $image_size = $rows['image_size']; ?>
-
-          <img src="<?php echo $image_path; ?>" class="responsive-img" alt="missing image" />
 
           <div class="card">
               <div class="card-image">
