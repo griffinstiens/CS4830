@@ -38,14 +38,14 @@
     <div class="container">
 
       <div class="row">
-        <?php while($rows = mysqli_fetch_array($query))
-        {
-          $image_name = $rows['image_name'];
-          $image_path = $rows['image_path'];
-          $image_type = $rows['image_type'];
-          $image_size = $rows['image_size']; ?>
         <div class="col s12">
 
+          <?php while($rows = mysqli_fetch_array($query))
+          {
+            $image_name = $rows['image_name'];
+            $image_path = $rows['image_path'];
+            $image_type = $rows['image_type'];
+            $image_size = $rows['image_size']; ?>
           <img src="<?php echo $image_path; ?>" class="responsive-img" alt="missing image" />
 
           <div class="card">
