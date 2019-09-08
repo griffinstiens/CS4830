@@ -36,32 +36,19 @@
     </nav>
 
     <div class="container">
-      <?php while($rows = mysqli_fetch_array($query))
-      {
-        $image_name = $rows['image_name'];
-        $image_path = $rows['image_path'];
-        $image_type = $rows['image_type'];
-        $image_size = $rows['image_size']; ?>
+
       <div class="row">
+        <?php while($rows = mysqli_fetch_array($query))
+        {
+          $image_name = $rows['image_name'];
+          $image_path = $rows['image_path'];
+          $image_type = $rows['image_type'];
+          $image_size = $rows['image_size']; ?>
         <div class="colum">
 
           <img src="<?php echo $image_path; ?>" class="responsive-img" alt="missing image" />
 
-          <!-- <div class="card">
-              <div class="card-image">
-                <img src="<?php echo $image_path; ?>" class="responsive-img" alt="missing image" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Image<i class="material-icons right">settings</i></span>
-                <p>Please select the cog wheel to the right to display photo information.</p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
-                <p><b>Name: <?php echo $image_name; ?></b></p>
-                <p><b>Type: <?php echo $image_type; ?></b></p>
-                <p><b>Size (In KB): <?php echo $image_size; ?></b></p>
-              </div>
-           </div> -->
+          
 
         </div>
       </div>
