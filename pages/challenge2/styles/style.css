@@ -26,3 +26,14 @@ nav {
 .column img {
   margin-top: 12px;
 }
+
+.header {
+  background-image: url("images/bg.jpg");
+  filter: grayscale(100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  /* keeps top of the image static when image is scaling */
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
