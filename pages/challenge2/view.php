@@ -53,14 +53,14 @@
               </div>
            </div>
            <?php
-           }
+         } ?>
         </div>
       </div>
     </div>
   </body>
 </html>
 
-
+<?php
   function connectDB(){
     $conn = new mysqli(HOST, USERNAME, PASSWORD, DBNAME);
     if ($conn->connect_error) {
