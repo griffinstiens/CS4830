@@ -20,7 +20,7 @@ nav {
   position: relative;
   min-height: 90vh;
   animation: slide 3s;
-  /* animation-fill-mode: backwards; */
+  animation-fill-mode: forwards;
 }
 
 @keyframes slide {
