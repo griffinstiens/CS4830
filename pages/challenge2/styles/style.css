@@ -15,3 +15,8 @@ nav .brand-logo {
   font-family: 'Lobster', cursive !important;
 
 }
+
+.devicon-php-plain {
+  width: 500px;
+  height: 500px;
+}
