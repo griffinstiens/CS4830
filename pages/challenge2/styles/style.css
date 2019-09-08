@@ -32,6 +32,7 @@ nav {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
+  filter: grayscale(100%);
   /* keeps top of the image static when image is scaling */
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
