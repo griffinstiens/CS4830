@@ -35,7 +35,7 @@
 
     <div class="container">
       <div class="row">
-        <div class="col s12 m6 l6">
+        <div class="col s12">
           <?php while($rows = mysqli_fetch_array($query))
           {
             $image_name = $rows['image_name'];
