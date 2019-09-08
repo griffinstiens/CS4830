@@ -25,7 +25,7 @@ nav {
 
 @keyframes slide {
   0% {
-    clip-path: polygon(0 0, 100% 0, 0% 75vh, 0 0%);
+    clip-path: polygon(0 0, 0% 0, 100% 75vh, 0 0%);
      }
   100% {
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
