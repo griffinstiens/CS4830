@@ -47,9 +47,9 @@
                 <img src="<?php echo $image_path; ?>" class="responsive-img" alt="missing image" />
               </div>
               <div class="card-content">
-          	     <p><strong>Name: <?php echo $image_name; ?></strong></p>
-                 <p><strong>Type: <?php echo $image_type; ?></strong></p>
-                 <p><strong>Size (In KB): <?php echo $image_size; ?></strong></p>
+          	     <p><b>Name: <?php echo $image_name; ?></b></p>
+                 <p><b>Type: <?php echo $image_type; ?></b></p>
+                 <p><b>Size (In KB): <?php echo $image_size; ?></b></p>
               </div>
            </div>
            <?php
