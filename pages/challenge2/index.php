@@ -30,7 +30,7 @@ function connectDB(){
   <body>
     <nav>
       <div class="nav-wrapper">
-        <a href="#!" class="brand-logo center">Challenge 2</a>
+        <a href="index.php" class="brand-logo center">Challenge 2</a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="left hide-on-med-and-down">
           <li><a href="index.php">Home</a></li>
