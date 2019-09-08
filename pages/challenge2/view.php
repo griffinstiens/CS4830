@@ -5,14 +5,6 @@
 
       //Get image data from database
       $query = mysqli_query($conn, "SELECT * FROM images");
-
-      while($rows = mysqli_fetch_array($query))
-      {
-        $image_name = $rows['image_name'];
-        $image_path = $rows['image_path'];
-        $image_type = $rows['image_type'];
-        $image_size = $rows['image_size'];
-
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -43,6 +35,12 @@
 
     <div class="container">
       <div class="row">
+        <?php while($rows = mysqli_fetch_array($query))
+        {
+          $image_name = $rows['image_name'];
+          $image_path = $rows['image_path'];
+          $image_type = $rows['image_type'];
+          $image_size = $rows['image_size']; ?>
         <div class="col s12 m6 l6">
           <div class="card large">
               <div class="card-image">
