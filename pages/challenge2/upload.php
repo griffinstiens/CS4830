@@ -19,7 +19,7 @@ if (isset($_POST['submit'])) {
     $success = "Image uploaded successfully!";
     header("Location: index.php?success=".$success);
   } else {
-    echo "pls work";
+    $error = "Yikes there was an error bro";
   }
 
 
