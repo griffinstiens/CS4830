@@ -10,22 +10,6 @@ nav {
   background-color: black;
 }
 
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.column img {
-  margin-top: 12px;
-}
-
 .header {
   background-image: url("../images/bg.jpg");
   background-size: cover;
@@ -35,7 +19,7 @@ nav {
   /* keeps top of the image static when image is scaling */
   position: relative;
   min-height: 90vh;
-  animation: slide .5s ease-out 2s;
+  animation: slide 3s;
   /* animation-fill-mode: backwards; */
 }
 
