@@ -17,5 +17,5 @@ nav {
 }
 
 .card .card-reveal {
-  background-color: red;
+  background-color: blue !important;
 }
