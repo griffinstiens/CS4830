@@ -45,7 +45,7 @@ function connectDB(){
           <p class="flow-text">Here is the second challenge. Click the button below to upload an image! After you receive
           a success message, go to the 'Results' page to see your image.</p>
           <?php
-            if(isset($_GET['success'])) echo "<h3 style='color: green'>"$_GET['success']"</h3>";
+            if(isset($_GET['success'])) echo "<h3>$_GET['success']</h3>";
           ?>
           <form action="upload.php" method="post" enctype="multipart/form-data">
               Choose an Image:
