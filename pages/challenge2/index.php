@@ -45,8 +45,8 @@ function connectDB(){
           <p class="flow-text">Here is the second challenge. Click the button below to upload an image! After you receive
           a success message, go to the 'Results' page to see your image.</p>
           <form action="upload.php" method="post" enctype="multipart/form-data">
+              Choose an Image:
               <input type="file" name="file" class="input_file">
-              <label for="file">Choose Image</label>
               <input type="submit" name="submit" value="Upload">
           </form>
         </div>
