@@ -45,21 +45,9 @@
       <div class="row">
         <div class="col s12 m6 l6">
 
-          <div class="card">
-              <div class="card-image">
+
                 <img src="<?php echo $image_path; ?>" class="responsive-img" alt="missing image" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Image<i class="material-icons right">settings</i></span>
-                <p>Please select the cog wheel to the right to display photo information.</p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
-                <p><b>Name: <?php echo $image_name; ?></b></p>
-                <p><b>Type: <?php echo $image_type; ?></b></p>
-                <p><b>Size (In KB): <?php echo $image_size; ?></b></p>
-              </div>
-           </div>
+
 
         </div>
       </div>
