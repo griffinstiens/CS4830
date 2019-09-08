@@ -16,6 +16,6 @@ nav {
   height: 300px !important;
 }
 
-.card .card-reveal {
+.card.card-reveal {
   background-color: blue !important;
 }
