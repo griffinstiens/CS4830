@@ -1,10 +1,9 @@
-h3 {
-  font-family: 'Lexend Zetta', sans-serif;
+body {
+  font-family: 'Lato', sans-serif;
+
 }
 
-p, span {
-  font-family: 'Lato', sans-serif;
-}
+
 
 .success {
   color: red !important;
