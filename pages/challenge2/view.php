@@ -28,12 +28,33 @@
     <title>View</title>
   </head>
   <body>
-    <div class="container">
-      <img src="<?php echo $image_path; ?>" class="image_grid" alt="missing image" />
-	     <p><strong>Name: <?php echo $image_name; ?></strong></p>
-       <p><strong>Type: <?php echo $image_type; ?></strong></p>
-       <p><strong>Size (In KB): <?php echo $image_size; ?></strong></p>
 
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo center">Challenge 2</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="left hide-on-med-and-down">
+          <li><a href="view.php">View</a></li>
+          <li><a href="about.html">About This Project</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6 l6">
+          <div class="card large">
+              <div class="card-image">
+                <img src="<?php echo $image_path; ?>" class="responsive-img" alt="missing image" />
+              </div>
+              <div class="card-content">
+          	     <p><strong>Name: <?php echo $image_name; ?></strong></p>
+                 <p><strong>Type: <?php echo $image_type; ?></strong></p>
+                 <p><strong>Size (In KB): <?php echo $image_size; ?></strong></p>
+              </div>
+           </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
