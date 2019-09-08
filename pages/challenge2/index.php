@@ -31,6 +31,7 @@ function connectDB(){
         <a href="#!" class="brand-logo center">Challenge 2</a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="left hide-on-med-and-down">
+          <li><a href="index.php">Home</a></li>
           <li><a href="view.php">View</a></li>
           <li><a href="about.html">About This Project</a></li>
         </ul>
