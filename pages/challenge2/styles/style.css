@@ -11,12 +11,7 @@ nav {
   background-color: grey;
 }
 
-.image-grid {
-  width: 300px !important;
-  height: 300px !important;
-}
-
 nav .brand-logo {
-  font-family: 'Lobster', cursive;
+  font-family: 'Lobster', cursive !important;
 
 }
