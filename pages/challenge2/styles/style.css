@@ -7,7 +7,7 @@ p, span {
 }
 
 .success {
-  color: red;
+  color: red !important;
 }
 nav {
   background-color: black;
