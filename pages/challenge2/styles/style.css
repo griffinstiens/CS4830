@@ -21,13 +21,16 @@ nav {
 }
 
 .input_file + label {
-  border: none;
-  border-radius: 2px;
-  display: inline-block;
-  height: 36px;
-  line-height: 36px;
-  padding: 0 16px;
-  text-transform: uppercase;
-  vertical-align: middle;
-  -webkit-tap-highlight-color: transparent;
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    border: none;
+    border-radius: 2px;
+    display: inline-block;
+    padding: 0 16px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
 }
