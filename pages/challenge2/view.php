@@ -42,7 +42,7 @@
             $image_path = $rows['image_path'];
             $image_type = $rows['image_type'];
             $image_size = $rows['image_size']; ?>
-          <div class="card small">
+          <div class="card medium">
               <div class="card-image">
                 <img src="<?php echo $image_path; ?>" class="responsive-img" alt="missing image" />
               </div>
