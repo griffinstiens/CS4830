@@ -58,10 +58,11 @@
                 <p><b>Size (In KB): <?php echo $image_size; ?></b></p>
               </div>
            </div>
-           <?php
-         } ?>
+
         </div>
       </div>
+      <?php
+    } ?>
     </div>
 
 
