@@ -29,7 +29,7 @@
   </head>
   <body>
     <div class="container">
-      <img src="<?php echo $image_path; ?>" alt="" title="<?php echo $image_name; ?>" class="responsive-img" />
+      <img src="<?php echo $image_path; ?>" alt="" title="<?php echo $image_name; ?>" />
 	     <p><strong>Name: <?php echo $image_name; ?></strong></p>
        <p><strong>Type: <?php echo $image_type; ?></strong></p>
        <p><strong>Size (In KB): <?php echo $image_size; ?></strong></p>
