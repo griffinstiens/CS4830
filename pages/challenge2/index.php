@@ -46,7 +46,7 @@ function connectDB(){
           a success message, go to the 'Results' page to see your image.</p>
           <form action="upload.php" method="post" enctype="multipart/form-data">
               Choose an Image:
-              <input type="file" name="file" class="input_file">
+              <input type="file" name="file">
               <input type="submit" name="submit" value="Upload">
           </form>
         </div>
