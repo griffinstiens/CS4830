@@ -16,7 +16,7 @@ nav {
   height: 300px !important;
 }
 
-.brand-logo {
+a {
   font-family: 'Lobster', cursive;
 
 }
