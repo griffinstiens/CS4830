@@ -14,12 +14,12 @@ if (isset($_POST['submit'])) {
   if (empty($_FILES['name'])) {
     $empty = "You must select a photo!";
     header("Location: index.php?empty=".$empty);
-  } else {
+  }
     move_uploaded_file($image_temp, $image_path);
     $sql = mysqli_query($conn, "INSERT INTO images (image_name, image_path, image_type, image_size)
     VALUES ('$image_name', '$image_path', '$image_type','$image_size')");
 
-  }
+
 
 
   if($sql) {
