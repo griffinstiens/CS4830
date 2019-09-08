@@ -6,6 +6,9 @@ p, span {
   font-family: 'Lato', sans-serif;
 }
 
+p.success {
+  color: red;
+}
 nav {
   background-color: #90caf9;
 }

@@ -48,7 +48,7 @@ function connectDB(){
             <div class="card">
               <div class="card-content">
                 <p class="flow-text">Here is the second challenge. Click the button below to upload an image! After you receive
-                a success message, go to the 'Results' page to see your image.</p>
+                a success message, go to the 'View' page to see your image.</p>
                 <?php
                   if(isset($_GET['success'])) echo $_GET['success'];
                 ?>
