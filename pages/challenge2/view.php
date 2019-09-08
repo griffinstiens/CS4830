@@ -58,6 +58,14 @@
         </div>
       </div>
     </div>
+
+
+
+  <script>
+  M.AutoInit();
+
+
+  </script>
   </body>
 </html>
 
