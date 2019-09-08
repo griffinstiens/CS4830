@@ -22,6 +22,7 @@ function connectDB(){
     <link href="https://fonts.googleapis.com/css?family=Lexend+Zetta|Quicksand&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Erica+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
