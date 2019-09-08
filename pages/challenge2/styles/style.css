@@ -11,7 +11,24 @@ nav {
   background-color: grey;
 }
 
-nav .brand-logo {
-  font-family: 'Lobster', cursive !important;
+.input_file {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
 
+.input_file + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+}
+
+.input_file:focus + label,
+.input_file + label:hover {
+    background-color: red;
 }
