@@ -44,16 +44,16 @@
           $image_path = $rows['image_path'];
           $image_type = $rows['image_type'];
           $image_size = $rows['image_size']; ?>
-        <div class="colum">
+        <div class="column">
 
           <img src="<?php echo $image_path; ?>" class="responsive-img" alt="missing image" />
 
-          
 
         </div>
+        <?php
+        } ?>
       </div>
-      <?php
-      } ?>
+
 
     </div>
 
