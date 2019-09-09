@@ -56,10 +56,20 @@ function connectDB(){
                 <?php if(isset($_GET['success']))?><?php echo "<div class='success'>"?><?php echo $_GET['success'];?><?php echo '</div>';?>
                 <?php if(isset($_GET['error'])) echo $_GET['error'];?>
                 <?php if(isset($_GET['empty'])) echo $_GET['empty'];?>
-                <form action="upload.php" method="post" enctype="multipart/form-data">
-                    Choose an Image:
-                    <input type="file" name="file">
-                    <input type="submit" name="submit" value="Upload">
+                <form class="col s12" method="post" enctype="multipart/form-data">
+                  <div class = "row">
+                     <div class = "file-field input-field">
+                        <div class = "btn">
+                           <span>Browse</span>
+                           <input type ="file" name="file"/>
+                        </div>
+
+                        <div class = "file-path-wrapper">
+                           <input class = "file-path validate" type = "text"
+                              placeholder = "Upload file" />
+                        </div>
+                     </div>
+                  </div>
                 </form>
               </div>
             </div>
