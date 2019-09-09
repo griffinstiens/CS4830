@@ -28,7 +28,7 @@ h1 {
   animation-fill-mode: forwards; */
 }
 
-.card {
+.card .my_card {
   position: absolute;
   top: 25%;
   width: 400px;

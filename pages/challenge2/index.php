@@ -45,7 +45,7 @@ function connectDB(){
       <div class="container">
         <div class="row">
           <div class="col s12 m6 l6">
-            <div class="card">
+            <div class="card my_card">
               <div class="card-content">
                 <p class="flow-text">Here is the second challenge. Click the button below to upload an image! After you receive
                 a success message, go to the 'View' page to see your image.</p>
