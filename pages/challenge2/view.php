@@ -51,14 +51,16 @@
             $image_name = $rows['image_name'];
             $image_path = $rows['image_path'];
             $image_type = $rows['image_type'];
-            $image_size = $rows['image_size']; ?>
+            $image_size = $rows['image_size'];
+            $image_id = $rows['id'];
+          ?>
 
           <div class="card">
               <div class="card-image">
                 <img src="<?php echo $image_path; ?>" class="responsive-img" alt="missing image" />
               </div>
               <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Image<i class="material-icons right">settings</i></span>
+                <span class="card-title activator grey-text text-darken-4">Image<?php echo $image_id?><i class="material-icons right">settings</i></span>
                 <p>Please select the cog wheel to the right to display photo information.</p>
               </div>
               <div class="card-reveal">
