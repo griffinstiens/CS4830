@@ -60,7 +60,7 @@
                 <img src="<?php echo $image_path; ?>" class="responsive-img" alt="missing image" />
               </div>
               <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Image<?php echo $image_id?><i class="material-icons right">settings</i></span>
+                <span class="card-title activator grey-text text-darken-4">Image: <?php echo $image_id?><i class="material-icons right">settings</i></span>
                 <p>Please select the cog wheel to the right to display photo information.</p>
               </div>
               <div class="card-reveal">
