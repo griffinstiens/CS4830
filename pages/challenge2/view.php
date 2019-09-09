@@ -35,6 +35,11 @@
         </ul>
       </div>
     </nav>
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="index.php">Home</a></li>
+      <li><a href="view.php">View</a></li>
+      <li><a href="about.html">About This Project</a></li>
+    </ul>
 
     <div class="container">
 
