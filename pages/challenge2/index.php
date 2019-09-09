@@ -57,15 +57,8 @@ function connectDB(){
                 <?php if(isset($_GET['error'])) echo $_GET['error'];?>
                 <?php if(isset($_GET['empty'])) echo $_GET['empty'];?>
                 <form action="upload.php" method="post" enctype="multipart/form-data">
-                  <div class="row">
-                     <label>Materialize File Input</label>
-                     <div class = "file-field input-field">
-                        <div class="btn">
-                           <span>Browse</span>
-                           <input type="file" name="file">
-                        </div>
-                           <input type="submit" name="submit" value="Upload">
-                     </div>
+                  <input type="file" name="file">
+                  <input type="submit" name="submit" value="Upload">
                   </div>
                 </form>
 
