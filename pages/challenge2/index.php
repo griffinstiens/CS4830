@@ -73,7 +73,6 @@ function connectDB(){
           <div class="col s12 m6 l6">
             <h1 class="center">Photo Uploader</h1><br>
             <p style="color: white">ALL images shown on this web application are provided by Pixabay.</p>
-            <br>
             <p style="color: white">A ROYALTY FREE source for stunning images.</p>
           </div>
         </div>
