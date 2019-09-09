@@ -17,7 +17,7 @@ if (isset($_POST['submit'])) {
     VALUES ('$image_name', '$image_path', '$image_type','$image_size')");
 
   if($sql) {
-    $success = "Image uploaded successfully!";
+    $success = "<p style='color: red'>Image uploaded successfully!</p>";
     header("Location: index.php?success=".$success);
   } else {
     $error = "Yikes there was an error bro";
