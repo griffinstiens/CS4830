@@ -60,14 +60,11 @@ function connectDB(){
                   <div class="row">
                      <label>Materialize File Input</label>
                      <div class = "file-field input-field">
-                        <div class = "btn">
+                        <div class="btn">
                            <span>Browse</span>
                            <input type="file" name="file">
                         </div>
-
-                        <div class="file-path-wrapper">
                            <input type="submit" name="submit" value="Upload">
-                        </div>
                      </div>
                   </div>
                 </form>
