@@ -80,7 +80,7 @@ function connectDB(){
               <i class="large material-icons">mode_edit</i>
             </a>
             <ul>
-              <li><a class="btn-floating red" href="../index.php"><i class="material-icons">insert_chart</i></a></li>
+              <li><a class="btn-floating red" href="../../index.php"><i class="material-icons">insert_chart</i></a></li>
             </ul>
           </div>
         </div>
