@@ -1,6 +1,5 @@
 body {
   font-family: 'Lato', sans-serif;
-
 }
 
 .success {
@@ -8,6 +7,12 @@ body {
 }
 nav {
   background-color: black;
+}
+
+h1 {
+  color: white;
+  font-family: 'Lato', sans-serif;
+
 }
 
 .header {
