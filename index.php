@@ -24,22 +24,7 @@
         margin: 0px;
         padding-top: 1px;
       }
-
-      .mine {
-        font-family: 'Lobster', cursive;
-        animation-name: moveInRight;
-        animation-duration: 1.5s;
-      }
-
-      @keyframes moveInLeft {
-        0% {
-          opacity: 0;
-          transform: translateX(-10rem); }
-        80% {
-          transform: translateX(1rem); }
-        100% {
-          opacity: 1;
-          transform: translate(0); } }
+      
     </style>
     <title>CS4830</title>
   </head>
