@@ -28,6 +28,12 @@ h1 {
   animation-fill-mode: forwards; */
 }
 
+.card {
+  position: absolute;
+  top: 25%;
+  width: 400px;
+}
+
 /* @keyframes slide {
   0% {
     clip-path: polygon(0 0, 0% 0, 0% 75vh, 0 100%);
