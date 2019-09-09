@@ -24,15 +24,15 @@ h1 {
   /* keeps top of the image static when image is scaling */
   position: relative;
   min-height: 90vh;
-  animation: slide 3s;
-  animation-fill-mode: forwards;
+  /* animation: slide 3s;
+  animation-fill-mode: forwards; */
 }
 
-@keyframes slide {
+/* @keyframes slide {
   0% {
     clip-path: polygon(0 0, 0% 0, 0% 75vh, 0 100%);
      }
   100% {
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   }
-}
+} */
