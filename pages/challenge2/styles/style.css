@@ -23,7 +23,7 @@ h1 {
   filter: grayscale(100%);
   /* keeps top of the image static when image is scaling */
   position: relative;
-  min-height: 90vh;
+  min-height: 100vh;
   /* animation: slide 3s;
   animation-fill-mode: forwards; */
 }
