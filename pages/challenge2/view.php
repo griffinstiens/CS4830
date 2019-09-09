@@ -69,7 +69,7 @@
                   <li><i class="material-icons">mode_edit</i>Name: <?php echo $image_name; ?></li>
                   <li><i class="material-icons">image</i>Type: <?php echo $image_type; ?></li>
                   <li><i class="material-icons">folder</i>Path: <?php echo $image_path; ?></li>
-                  <li><i class="material-icons">photo_size_select_actual</i>Size (In KB): <?php echo $image_size; ?></li>
+                  <li><i class="material-icons">photo_size_select_actual</i>Size: <?php echo $image_size; ?>KB</li>
                 </ul>
               </div>
            </div>
