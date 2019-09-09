@@ -67,10 +67,9 @@
                 <p><b>Type: <?php echo $image_type; ?></b></p>
                 <p><b>Size (In KB): <?php echo $image_size; ?></b></p>
               </div>
-              <?php
-              } ?>
            </div>
-
+           <?php
+           } ?>
         </div>
       </div>
 
