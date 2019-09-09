@@ -63,10 +63,10 @@
               </div>
               <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
-                <p><b>Name: <?php echo $image_name; ?></b></p>
-                <p><b>Type: <?php echo $image_type; ?></b></p>
-                <p><b>Path: <?php echo $image_path; ?></b></p>
-                <p><b>Size (In KB): <?php echo $image_size; ?></b></p>
+                <p><b><i class="material-icons">mode_edit</i>Name: <?php echo $image_name; ?></b></p>
+                <p><b><i class="material-icons">image</i>Type: <?php echo $image_type; ?></b></p>
+                <p><b><i class="material-icons">folder</i>Path: <?php echo $image_path; ?></b></p>
+                <p><b><i class="material-icons">photo_size_select_actual</i>Size (In KB): <?php echo $image_size; ?></b></p>
               </div>
            </div>
            <?php
