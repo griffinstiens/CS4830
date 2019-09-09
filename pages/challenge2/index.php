@@ -71,14 +71,11 @@ function connectDB(){
             </div>
           </div>
           <div class="col s12 m6 l6">
-            <h1 class="center">Photo Uploader</h1>
+            <h1 class="center">Photo Uploader</h1><br>
+            <p>ALL images shown on this web application are provided by Pixabay.</p>
           </div>
-
         </div>
       </div>
-      <footer class="page-footer">
-        <p>Test</p>
-      </footer>
     <script>
       M.AutoInit();
     </script>
