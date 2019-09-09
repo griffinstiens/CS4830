@@ -74,6 +74,15 @@ function connectDB(){
             <h1 class="center">Photo Uploader</h1><br>
             <p style="color: white">ALL images shown on this web application are provided by Pixabay.</p>
           </div>
+
+          <div class="fixed-action-btn">
+            <a class="btn-floating btn-large red">
+              <i class="large material-icons">mode_edit</i>
+            </a>
+            <ul>
+              <li><a class="btn-floating red" href="../index.php"><i class="material-icons">insert_chart</i></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     <script>
