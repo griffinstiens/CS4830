@@ -76,7 +76,9 @@ function connectDB(){
 
         </div>
       </div>
-    </div>
+      <footer class="page-footer">
+        <p>Test</p>
+      </footer>
     <script>
       M.AutoInit();
     </script>
