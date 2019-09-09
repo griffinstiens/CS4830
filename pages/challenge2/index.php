@@ -60,7 +60,9 @@ function connectDB(){
               </div>
             </div>
           </div>
-          <div class="col s12 m6 l6"></div>
+          <div class="col s12 m6 l6">
+            <h1 class="center">Photo Uploader</h1>
+          </div>
 
         </div>
       </div>
