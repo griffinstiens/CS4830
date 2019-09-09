@@ -56,7 +56,7 @@ function connectDB(){
                 <?php if(isset($_GET['success']))?><?php echo "<div class='success'>"?><?php echo $_GET['success'];?><?php echo '</div>';?>
                 <?php if(isset($_GET['error'])) echo $_GET['error'];?>
                 <?php if(isset($_GET['empty'])) echo $_GET['empty'];?>
-                <form class="col s12" action="upload.php" method="post" enctype="multipart/form-data">
+                <form action="upload.php" method="post" enctype="multipart/form-data">
                   <div class="row">
                      <label>Materialize File Input</label>
                      <div class = "file-field input-field">
@@ -65,8 +65,8 @@ function connectDB(){
                            <input type="file" name="file">
                         </div>
 
-                        <div class = "file-path-wrapper">
-                           <input class="file-path validate" type="submit" name="submit" value="Upload">
+                        <div class="file-path-wrapper">
+                           <input type="submit" name="submit" value="Upload">
                         </div>
                      </div>
                   </div>
