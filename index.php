@@ -24,6 +24,22 @@
         margin: 0px;
         padding-top: 1px;
       }
+
+      .mine {
+        font-family: 'Lobster', cursive;
+        animation-name: moveInRight;
+        animation-duration: 1.5s;
+      }
+
+      @keyframes moveInLeft {
+        0% {
+          opacity: 0;
+          transform: translateX(-10rem); }
+        80% {
+          transform: translateX(1rem); }
+        100% {
+          opacity: 1;
+          transform: translate(0); } }
     </style>
     <title>CS4830</title>
   </head>
@@ -37,7 +53,7 @@
                   <img src="images/griffin.jpeg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
                 </div>
                 <div class="col s10">
-                  <h2 class="black-text">Griffin C. Stiens</h2><br>
+                  <h2 class="mine">Griffin C. Stiens</h2><br>
                   <span class="black-text">
                     This will serve as the hub for all projects completed in CS4830. Click the "Challenge 1" button below
                     to see the first challenge!
