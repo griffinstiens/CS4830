@@ -76,12 +76,9 @@ function connectDB(){
           </div>
 
           <div class="fixed-action-btn">
-            <a class="btn-floating btn-large red">
+            <a class="btn-floating btn-large red" href="../../index.php">
               <i class="large material-icons">home</i>
             </a>
-            <ul>
-              <li><a class="btn-floating red" href="../../index.php"><i class="material-icons">home</i></a></li>
-            </ul>
           </div>
         </div>
       </div>
