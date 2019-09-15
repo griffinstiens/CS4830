@@ -24,7 +24,7 @@
         margin: 0px;
         padding-top: 1px;
       }
-      
+
     </style>
     <title>CS4830</title>
   </head>
@@ -55,6 +55,9 @@
             <br>
             <div class="card-panel test">
               <p class="center black-text flow-text"><a href="pages/challenge2/index.php">Challenge 2</a></p>
+            </div>
+            <div class="card-panel test">
+              <p class="center black-text flow-text"><a href="pages/exploration1/index.html">Exploration 1</a></p>
             </div>
           </div>
 
