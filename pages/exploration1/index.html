@@ -1,0 +1,72 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Rubik+Mono+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Exploration #1</title>
+</head>
+<body>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo center">Exploration 1 - Materialize CSS</a>
+      
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <div class="card large">
+          <div class="card-content">
+            <div class="card-title center">Please sign up and answer a few questions!</div>
+            <div class="row">
+              <div class="input-field col s6">
+                <i class="material-icons prefix">account_circle</i>
+                <input id="first_name" type="text" class="validate">
+                <label for="first_name">First Name</label>
+              </div>
+              <div class="input-field col s6">
+                <i class="material-icons prefix">account_circle</i>
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Last Name</label>
+              </div>
+              <div class="input-field col s12">
+                <i class="material-icons prefix">email</i>
+                <input id="email" type="text" class="validate">
+                <label for="email">Email</label>
+              </div>
+              <div class="input-field col s6">
+                <i class="material-icons prefix">phone</i>
+                <input id="phone" type="text" class="validate">
+                <label for="phone">Phone</label>
+              </div>
+              <div class="input-field col s6">
+                <i class="material-icons prefix">date_range</i>
+                <input type="text" class="datepicker">
+                <label for="dateofbirth">Date of Birth</label>
+              </div>
+            </div>
+            <a class="waves-effect waves-light btn red darken-4">Submit</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<script>
+  $(document).ready(function(){
+    $('.datepicker').datepicker();
+  });
+</script>
+</body>
+</html>

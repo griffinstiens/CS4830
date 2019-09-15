@@ -1,0 +1,63 @@
+nav {
+  background-color: #b71c1c;
+}
+
+body {
+  background-color: #424242;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  color: white;
+  letter-spacing: 17.4px;
+
+}
+
+p {
+  font-family: 'Dancing Script', cursive;
+  color: white;
+}
+
+.datepicker-date-display {
+  background-color: #b71c1c;
+}
+
+.datepicker-table td.is-today {
+  color: #b71c1c;
+}
+
+.datepicker-cancel, .datepicker-clear, .datepicker-today, .datepicker-done {
+  color: #b71c1c;
+}
+
+.datepicker-table td.is-selected {
+  background-color: #b71c1c;
+}
+
+/* label color */
+   .input-field label {
+     color: #000;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #b71c1c;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #b71c1c;
+     box-shadow: 0 1px 0 0 #b71c1c;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #b71c1c;
+     box-shadow: 0 1px 0 0 #b71c1c;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #b71c1c;
+     box-shadow: 0 1px 0 0 #b71c1c;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #b71c1c;
+   }
