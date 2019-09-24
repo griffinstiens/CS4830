@@ -62,7 +62,7 @@
             </div>
             <br>
             <div class="card-panel test">
-              <p class="center black-text flow-text"><a href="pages/challenge3/index.html">Challenge 3</a></p>
+              <p class="center black-text flow-text"><a href="pages/challenge3/home">Challenge 3</a></p>
             </div>
           </div>
 
