@@ -50,7 +50,8 @@ body {
   background-position: top;
   /* keeps top of the image static when image is scaling */
   position: relative;
-  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
 
 .logo-box {
   position: absolute;
@@ -139,6 +140,24 @@ body {
 .btn-animated {
   animation: moveInBottom .5s ease-out 2s;
   animation-fill-mode: backwards; }
+
+
+
+
+  /* secondary layout */
+
+  .header-two {
+    display: none;
+    height: 100vh;
+    /* 95% of viewport height */
+    background-image: url("../images/hero2.jpg");
+    filter: grayscale(100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    /* keeps top of the image static when image is scaling */
+    position: relative;
+  }
 
 /*************************************/
 /********* Animations ***********/
