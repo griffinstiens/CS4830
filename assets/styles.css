@@ -21,11 +21,11 @@ Dark green: #28b485
     }
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (max-width: 1200px) {
     .button-box {
         position: absolute;
         top: 55%;
-        left: 25%;
+        left: 10%;
         text-align: center; 
     }
   }
