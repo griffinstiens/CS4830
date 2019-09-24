@@ -8,14 +8,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 
     <style>
       body {
         background-color: #757575;
       }
 
-      p, h1, h2 {
+      h1, h2 {
         font-family: 'Lobster', cursive;
+      }
+
+      p {
+        font-family: 'Montserrat', sans-serif;
+
       }
 
       /* div.card-panel.test {
