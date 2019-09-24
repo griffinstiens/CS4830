@@ -12,6 +12,15 @@ Dark green: #28b485
   padding: 0;
   box-sizing: border-box; }
 
+  @media screen and (min-width: 480px) {
+    .button-box {
+        position: absolute;
+        top: 55%;
+        left: 25%;
+        text-align: center; 
+    }
+  }
+
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -67,8 +76,14 @@ body {
   top: 50%;
   left: 50%;
   text-align: center;
-  /* transform: translate(-50%, -50%); /* this centers in middle of page */
- }
+  /* transform: translate(-50%, -50%); /* this centers in middle of page */ }
+
+/* .button-box {
+  position: absolute;
+  top: 55%;
+  left: 25%;
+  text-align: center; 
+} */
 
 .btn:link,
 .btn:visited {
