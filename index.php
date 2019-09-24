@@ -47,6 +47,7 @@
               </div>
             </div>
           </div>
+          </div>
 
           <div class="col s12 m4 l4">
             <div class="card">
@@ -133,8 +134,7 @@
       </div> <!--end row-->
 
 
-
-    </div>
+      
     <script>
   M.AutoInit();
 
