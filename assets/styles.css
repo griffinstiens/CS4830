@@ -67,13 +67,8 @@ body {
   top: 50%;
   left: 50%;
   text-align: center;
-  /* transform: translate(-50%, -50%); /* this centers in middle of page */ }
-
-.button-box {
-  position: absolute;
-  top: 55%;
-  left: 25%;
-  text-align: center; }
+  /* transform: translate(-50%, -50%); /* this centers in middle of page */
+ }
 
 .btn:link,
 .btn:visited {
