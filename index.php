@@ -18,12 +18,12 @@
         font-family: 'Lobster', cursive;
       }
 
-      div.card-panel.test {
+      /* div.card-panel.test {
         width: 300px;
         height: 80px;
         margin: 0px;
         padding-top: 1px;
-      }
+      } */
 
     </style>
     <title>CS4830</title>
