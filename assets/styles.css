@@ -21,6 +21,11 @@ Dark green: #28b485
     }
   }
 
+h2 {
+  font-family: 'Petit Formal Script', cursive;
+
+}
+
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
