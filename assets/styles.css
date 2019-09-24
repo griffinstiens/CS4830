@@ -17,7 +17,8 @@ Dark green: #28b485
         position: absolute;
         top: 55%;
         left: 25%;
-        text-align: center; 
+        text-align: center;
+        color: red; 
     }
   }
 
