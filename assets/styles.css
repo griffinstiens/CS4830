@@ -111,8 +111,7 @@ body {
   z-index: -1;
   transition: all .4s; }
 
-.btn-white::after {
-  background-color: white; }
+
 
 .btn:hover::after {
   transform: scaleX(1.4) scaleY(2.6);
