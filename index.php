@@ -34,7 +34,7 @@
           </div>
       </header>
 
-      <div class="header2">
+      <!-- <div class="header2">
         <div class="row">
           <div class="col s12">
             <span class="heading-primary-main-2">Griffin S.</span>
@@ -45,7 +45,7 @@
           </div>
         
         </div>
-      </div>
+      </div> -->
 
 
     <script>
