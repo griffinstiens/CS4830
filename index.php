@@ -66,6 +66,20 @@
             </div>
           </div>
 
+          <div class="col s12 m4 l4">
+            <div class="card">
+                <div class="card-content">
+                  <a class="card-title activator grey-text text-darken-4">Challenge #1<i class="material-icons right">settings</i></a>
+                  <p>Please select the cog wheel to read about this project.</p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                  <p>This was the first challenge in CS4830 - Web Application Development II. The purpose of this
+                  particular assignment was to demonstrate the ability to configure an AWS server and display a web page.</p>
+                </div>
+            </div>
+          </div>
+
 
 
       </div> <!--end row-->
@@ -74,7 +88,9 @@
 
     </div>
     <script>
+  M.AutoInit();
 
-    </script>
+
+  </script>
   </body>
 </html>
