@@ -72,8 +72,10 @@
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
-                  <p>This was the first challenge in CS4830 - Web Application Development II. The purpose of this
-                  particular assignment was to demonstrate the ability to configure an AWS server and display a web page.</p>
+                  <p>This was the second challenge in CS4830. The purpose of this challenge was to re-iterate concepts
+                  covered in the previous pre-requisite course, namely PHP. This application enables you to pick an image
+                  from your machine and upload it to my server. However, the image is not stored in the database directly.
+                  The image is directly uploaded to an /uploads folder on the server and the PATH is stored in the database.</p>
                 </div>
             </div>
           </div>
@@ -86,8 +88,8 @@
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
-                  <p>This was the first challenge in CS4830 - Web Application Development II. The purpose of this
-                  particular assignment was to demonstrate the ability to configure an AWS server and display a web page.</p>
+                  <p>This was the first exploration. With explorations, you choose a specific technology and "explore".
+                  For this week's exploration, we were tasked to explore a front-end framework. So, I chose MaterializeCSS.</p>
                 </div>
             </div>
           </div>
@@ -101,8 +103,9 @@
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
-                  <p>This was the first challenge in CS4830 - Web Application Development II. The purpose of this
-                  particular assignment was to demonstrate the ability to configure an AWS server and display a web page.</p>
+                  <p>This was the third challenge. The primary purpose of this proejct was to create a fully functional
+                  Angular8 application. There are several requirements, for example: making sure the title HTML tag changed
+                  in respect to the current page, add an "active" class to the navigation elements, etc.</p>
                 </div>
             </div>
           </div>
