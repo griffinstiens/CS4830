@@ -29,8 +29,8 @@
           </div>
           
           <div class="button-box">
-            <a href="#" class="btn btn-animated">View Resume</a>
-            <a href="project-list.html" class="btn btn-animated">View Projects</a>
+            <a href="#" class="btn waves-effect waves-light btn-animated">View Resume</a>
+            <a href="project-list.html" class="btn waves-effect waves-light btn-animated">View Projects</a>
           </div>
       </header>
 
