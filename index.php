@@ -63,6 +63,50 @@
             </div>
           </div>
 
+          <div class="col s12 m4 l4">
+            <div class="card">
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Challenge #2<i class="material-icons right">settings</i></span>
+                  <a href="pages/challenge2/index.php">Visit Challenge #2</a>
+                  <p>Please select the cog wheel to read about this project.</p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                  <p>This was the first challenge in CS4830 - Web Application Development II. The purpose of this
+                  particular assignment was to demonstrate the ability to configure an AWS server and display a web page.</p>
+                </div>
+            </div>
+          </div>
+          <div class="col s12 m4 l4">
+            <div class="card">
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Exploration #1<i class="material-icons right">settings</i></span>
+                  <a href="pages/exploration1/index.html">Visit Exploration #1</a>
+                  <p>Please select the cog wheel to read about this project.</p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                  <p>This was the first challenge in CS4830 - Web Application Development II. The purpose of this
+                  particular assignment was to demonstrate the ability to configure an AWS server and display a web page.</p>
+                </div>
+            </div>
+          </div>
+
+          <div class="col s12 m4 l4">
+            <div class="card">
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Challenge #3<i class="material-icons right">settings</i></span>
+                  <a href="pages/challenge3/index.html">Visit Challenge #3</a>
+                  <p>Please select the cog wheel to read about this project.</p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                  <p>This was the first challenge in CS4830 - Web Application Development II. The purpose of this
+                  particular assignment was to demonstrate the ability to configure an AWS server and display a web page.</p>
+                </div>
+            </div>
+          </div>
+
           <!-- <div class="col s12 m5 l6">
             <div class="card-panel test">
               <p class="center black-text flow-text"><a href="pages/firstChallenge.html">Challenge 1</a></p>
