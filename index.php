@@ -46,8 +46,8 @@
                   <div class="col s10">
                     <h2 class="mine">Griffin C. Stiens</h2><br>
                     <span class="black-text">
-                      This will serve as the hub for all projects completed in CS4830. Click the "Challenge 1" button below
-                      to see the first challenge!
+                      This will serve as the hub for all projects completed in CS4830. Click the cog wheels within the cards
+                      below to read about the project!
                     </span>
                   </div>
               </div> <!--end row valign-wrapper -->
@@ -61,7 +61,6 @@
                   <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">Challenge #1<i class="material-icons right">settings</i></span>
                     <a href="pages/firstChallenge.html">Visit Challenge #1</a>
-                    <p>Please select the cog wheel to read about this project.</p>
                   </div>
                   <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
@@ -76,7 +75,6 @@
                   <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">Challenge #2<i class="material-icons right">settings</i></span>
                     <a href="pages/challenge2/index.php">Visit Challenge #2</a>
-                    <p>Please select the cog wheel to read about this project.</p>
                   </div>
                   <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
@@ -92,7 +90,6 @@
                   <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">Exploration #1<i class="material-icons right">settings</i></span>
                     <a href="pages/exploration1/index.html">Visit Exploration #1</a>
-                    <p>Please select the cog wheel to read about this project.</p>
                   </div>
                   <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
@@ -107,7 +104,6 @@
                   <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">Challenge #3<i class="material-icons right">settings</i></span>
                     <a href="pages/challenge3/index.html">Visit Challenge #3</a>
-                    <p>Please select the cog wheel to read about this project.</p>
                   </div>
                   <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
