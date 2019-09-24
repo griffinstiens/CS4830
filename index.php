@@ -47,7 +47,8 @@
                     <h2 class="mine">Griffin C. Stiens</h2><br>
                     <span class="black-text">
                       This will serve as the hub for all projects completed in CS4830. Click the cog wheels within the cards
-                      below to read about the project!
+                      below to read about the project! <b>FYI: At any time, when you want to come back to this page there will
+                      be a Home icon at the bottom right of every project home page. Give that a click to return!</b>
                     </span>
                   </div>
               </div> <!--end row valign-wrapper -->
