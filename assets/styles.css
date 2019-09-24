@@ -108,8 +108,7 @@ body {
   color: black;
   border: 2px solid red; } */
 
-.btn::after {
-  /* declaring content/display is needed */
+/* .btn::after {
   content: "";
   display: inline-block;
   height: 100%;
@@ -119,7 +118,7 @@ body {
   top: 0;
   left: 0;
   z-index: -1;
-  transition: all .4s; }
+  transition: all .4s; } */
 
 
 
