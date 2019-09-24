@@ -57,7 +57,7 @@
 
       <div class="row">
         <div class="col s12 m4 l4">
-              <div class="card">
+              <div class="card medium">
                   <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">Challenge #1<i class="material-icons right">settings</i></span>
                     <a href="pages/firstChallenge.html">Visit Challenge #1</a>
@@ -71,7 +71,7 @@
             </div>
 
             <div class="col s12 m4 l4">
-              <div class="card">
+              <div class="card medium">
                   <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">Challenge #2<i class="material-icons right">settings</i></span>
                     <a href="pages/challenge2/index.php">Visit Challenge #2</a>
@@ -86,7 +86,7 @@
               </div>
             </div>
             <div class="col s12 m4 l4">
-              <div class="card">
+              <div class="card medium">
                   <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">Exploration #1<i class="material-icons right">settings</i></span>
                     <a href="pages/exploration1/index.html">Visit Exploration #1</a>
@@ -100,7 +100,7 @@
             </div>
 
             <div class="col s12 m4 l4">
-              <div class="card">
+              <div class="card medium">
                   <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">Challenge #3<i class="material-icons right">settings</i></span>
                     <a href="pages/challenge3/index.html">Visit Challenge #3</a>
