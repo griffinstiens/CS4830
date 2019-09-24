@@ -6,147 +6,37 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Zetta|Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/styles.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 
+    <title>Griffin Stiens</title>
     <style>
-      body {
-        background-color: #757575;
-      }
-
-      h1, h2 {
-        font-family: 'Lobster', cursive;
-      }
-
-      p {
-        font-family: 'Montserrat', sans-serif;
-
-      }
-
-      /* div.card-panel.test {
-        width: 300px;
-        height: 80px;
-        margin: 0px;
-        padding-top: 1px;
-      } */
-
+   
     </style>
-    <title>CS4830</title>
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col s12">
-            <div class="card-panel grey lighten-5 z-depth-1">
-              <div class="row valign-wrapper">
-                  <div class="col s2">
-                    <img src="images/griffin.jpeg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
-                  </div>
-                  <div class="col s10">
-                    <h2 class="mine">Griffin C. Stiens</h2><br>
-                    <span class="black-text">
-                      This will serve as the hub for all projects completed in CS4830. Click the cog wheels within the cards
-                      below to read about the project! <b>FYI: At any time, when you want to come back to this page there will
-                      be a Home icon at the bottom right of every project home page. Give that a click to return!</b>
-                    </span>
-                  </div>
-              </div> <!--end row valign-wrapper -->
-            </div> <!--end card-panel -->
-         </div> <!--end col s12-->
-      </div> <!--end row-->
-
-      <div class="row">
-        <div class="col s12 m4 l4">
-              <div class="card medium">
-                  <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Challenge #1<i class="material-icons right">settings</i></span>
-                    <a href="pages/firstChallenge.html">Visit Challenge #1</a>
-                  </div>
-                  <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
-                    <p>This was the first challenge in CS4830 - Web Application Development II. The purpose of this
-                    particular assignment was to demonstrate the ability to configure an AWS server and display a web page.</p>
-                  </div>
-              </div>
-            </div>
-
-            <div class="col s12 m4 l4">
-              <div class="card medium">
-                  <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Challenge #2<i class="material-icons right">settings</i></span>
-                    <a href="pages/challenge2/index.php">Visit Challenge #2</a>
-                  </div>
-                  <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
-                    <p>This was the second challenge in CS4830. The purpose of this challenge was to re-iterate concepts
-                    covered in the previous pre-requisite course, namely PHP. This application enables you to pick an image
-                    from your machine and upload it to my server. However, the image is not stored in the database directly.
-                    The image is directly uploaded to an /uploads folder on the server and the PATH is stored in the database.</p>
-                  </div>
-              </div>
-            </div>
-            <div class="col s12 m4 l4">
-              <div class="card medium">
-                  <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Exploration #1<i class="material-icons right">settings</i></span>
-                    <a href="pages/exploration1/index.html">Visit Exploration #1</a>
-                  </div>
-                  <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
-                    <p>This was the first exploration. With explorations, you choose a specific technology and "explore".
-                    For this week's exploration, we were tasked to explore a front-end framework. So, I chose MaterializeCSS.</p>
-                  </div>
-              </div>
-            </div>
-
-            <div class="col s12 m4 l4">
-              <div class="card medium">
-                  <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Challenge #3<i class="material-icons right">settings</i></span>
-                    <a href="pages/challenge3/index.html">Visit Challenge #3</a>
-                  </div>
-                  <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
-                    <p>This was the third challenge. The primary purpose of this proejct was to create a fully functional
-                    Angular8 application. There are several requirements, for example: making sure the title HTML tag changed
-                    in respect to the current page, add an "active" class to the navigation elements, etc.</p>
-                  </div>
-              </div>
-            </div>
-          </div>
-    </div> <!--end container-->
-
-
-          
-
-          <!-- <div class="col s12 m5 l6">
-            <div class="card-panel test">
-              <p class="center black-text flow-text"><a href="pages/firstChallenge.html">Challenge 1</a></p>
-            </div>
-            <br>
-            <div class="card-panel test">
-              <p class="center black-text flow-text"><a href="pages/challenge2/index.php">Challenge 2</a></p>
-            </div>
-            <br>
-            <div class="card-panel test">
-              <p class="center black-text flow-text"><a href="pages/exploration1/index.html">Exploration 1</a></p>
-            </div>
-            <br>
-            <div class="card-panel test">
-              <p class="center black-text flow-text"><a href="pages/challenge3/index.html">Challenge 3</a></p>
-            </div>
+      <header class="header">
+          <!-- <div class="logo-box">
+            <img src="img/logo-white.png" alt="Natour Logo" class="logo">
           </div> -->
+  
+          <div class="text-box">
+            <h1 class="heading-primary">
+              <span class="heading-primary-main">Griffin S.</span>
+              <span class="heading-primary-sub">Front End Developer</span>
+            </h1>
+          </div>
+          
+          <div class="button-box">
+            <a href="#" class="btn btn-animated">View Resume</a>
+            <a href="project-list.html" class="btn btn-animated">View Projects</a>
+          </div>
+      </header>
 
 
-
-
-
-      
     <script>
-  M.AutoInit();
-
-
-  </script>
+      M.AutoInit();
+    </script>
   </body>
 </html>
