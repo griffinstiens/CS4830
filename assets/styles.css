@@ -21,6 +21,15 @@ Dark green: #28b485
     }
   }
 
+  @media screen and (min-width: 1200px) {
+    .button-box {
+        position: absolute;
+        top: 55%;
+        left: 25%;
+        text-align: center; 
+    }
+  }
+
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
