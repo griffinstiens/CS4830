@@ -34,18 +34,19 @@
           </div>
       </header>
 
-      <!-- <div class="header2">
+      <div class="container">
         <div class="row">
-          <div class="col s12">
-            <span class="heading-primary-main-2">Griffin S.</span>
-            <span class="heading-primary-sub-2">Front End Developer</span>
-
-            <a href="assets/GriffinStiens.pdf" target="blank" class="btn waves-effect waves-light btn-animated">View Resume</a>
-            <a href="project-list.html" class="btn waves-effect waves-light btn-animated">View Projects</a>
+          <div class="col s12 m4 l4">
+            <h1>test</h1>
           </div>
-        
+          <div class="col s12 m4 l4">
+            <h1>test</h1>
+          </div>
+          <div class="col s12 m4 l4">
+            <h1>test</h1>
+          </div>
         </div>
-      </div> -->
+      </div>
 
 
     <script>

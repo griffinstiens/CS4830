@@ -22,6 +22,11 @@ Dark green: #28b485
     }
   }
 
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
   /* @media screen and (max-width: 800px) {
     .header {
       display: none;
