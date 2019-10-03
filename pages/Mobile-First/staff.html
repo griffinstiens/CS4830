@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.9/css/uikit.min.css"/>
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.9/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.9/js/uikit-icons.min.js"></script>
+    <script src="uikit/dist/js/uikit-icons.min.js"></script>
+    <!-- Materialize Imports -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+      @media only screen (max-wdith: 640px) {
+        .test4 {
+          background-image: none;
+        }
+      }
+    </style>
+    <title>Our Staff</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper grey darken-4">
+        <a href="#!" class="brand-logo center white-text">Uncharted</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i>
+        </a>
+
+          <ul class="left hide-on-med-and-down">
+            <li>
+              <a href="home.html">Home</a>
+            </li>
+            <li>
+              <a href="description.html">About Us</a>
+            </li>
+            <li>
+              <a href="about.html">Our Portfolio</a>
+            </li>
+            <li>
+              <a href="staff.html">Our Photographers</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+      </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+      <li>
+        <a href="home.html">Home</a>
+      </li>
+      <li>
+        <a href="description.html">About Us</a>
+      </li>
+      <li>
+        <a href="about.html">Our Portfolio</a>
+      </li>
+      <li>
+        <a href="staff.html">Our Photographers</a>
+      </li>
+      <li>
+        <a href="contact.html">Contact Us</a>
+      </li>
+    </ul>
+
+    <div class="test4"> <!-- ADD MEDIA QUERY TO REMOVE BACKGROUND IMAGE AT CERTAIN WIDTH! -->
+
+    <div class="uk-child-width-1-2@s" uk-grid>
+    <div>
+        <div class="uk-card uk-card-default uk-card-large uk-card-body">
+          <div class="uk-card-media-top">
+                <img src="images/griffin.jpg" class="uk-border-rounded" alt="">
+          </div>
+            <h3 class="uk-card-title">Griffin C. Stiens</h3>
+            <h6>CEO</h6>
+            <p>Howdy! I'm Griffin and the CEO of Uncharted. I've been a huge hiking fanatic my entire life and when I found my passion for photography, I found my purpose. Hayden and I are living our own dream, traveling the world and capturing the most intense and incredible moments.</p>
+            <h6>Fun fact: I am a huge beer snob, and Hayden can't stand it.</h6>
+
+        </div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-card-large uk-card-body">
+          <div class="uk-card-media-top">
+                <img src="images/hayden.jpg" class="uk-border-rounded" alt="">
+          </div>
+            <h3 class="uk-card-title">Hayden P. Haddock</h3>
+            <h6>Co-Founder, Lead Photographer</h6>
+            <p>Hey guys! I'm Hayden and the co-founder. Ever since I got handed down that camera, I've been nuts about photography. It doesn't matter what it is, I take a picture of it. It drives Griffin nuts. I used to not be a fan of hiking, but I quickly learned to love it.</p>
+            <h6>Fun fact: If I'm not taking pictures, I'm playing World of Warcraft.</h6>
+        </div>
+    </div>
+</div>
+</div>
+
+<script type="text/javaScript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+<script>
+$(document).ready(function(){
+
+  $('.sidenav').sidenav();
+});
+</script>
+
+  </body>
+</html>

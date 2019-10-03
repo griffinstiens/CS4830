@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.9/css/uikit.min.css"/>
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.9/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.9/js/uikit-icons.min.js"></script>
+    <script src="uikit/dist/js/uikit-icons.min.js"></script>
+    <!-- Materialize Imports -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper grey darken-4">
+        <a href="#!" class="brand-logo center white-text">Uncharted</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i>
+        </a>
+
+          <ul class="left hide-on-med-and-down">
+            <li>
+              <a href="home.html">Home</a>
+            </li>
+            <li>
+              <a href="description.html">About Us</a>
+            </li>
+            <li>
+              <a href="about.html">Our Portfolio</a>
+            </li>
+            <li>
+              <a href="staff.html">Our Photographers</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+      </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+      <li>
+        <a href="home.html">Home</a>
+      </li>
+      <li>
+        <a href="description.html">About Us</a>
+      </li>
+      <li>
+        <a href="about.html">Our Portfolio</a>
+      </li>
+      <li>
+        <a href="staff.html">Our Photographers</a>
+      </li>
+      <li>
+        <a href="contact.html">Contact Us</a>
+      </li>
+    </ul>
+
+        <div class="test">
+          <div class="container">
+            <div class="row center">
+              <div class="col s12">
+                <div class="uk-position-center uk-overlay uk-overlay-default">
+                  <hr class="uk-divider-icon">
+                  <p class="center white-text">We have established an incredible portfolio filled with beautiful images we've taken from our own trips, and some we've borrowed from other customer's trips. We can tell you just how good our quality is, but don't take it from us, just click that button and find out what we're about!</p>
+                  <hr class="uk-divider-icon">
+
+                  <div uk-lightbox="animation: scale">
+                      <a class="uk-button uk-button-default" href="images/1.jpg">Open Gallery</a>
+                      <a href="images/2.jpg" data-uk-lightbox"{group: 'my-group1'}" title="">
+                      <a href="images/3.jpg" data-uk-lightbox"{group: 'my-group1'}" title="">
+                      <a href="images/4.jpg" data-uk-lightbox"{group: 'my-group1'}" title="">
+                      <a href="images/5.jpg" data-uk-lightbox"{group: 'my-group1'}" title="">
+                      <a href="images/6.jpg" data-uk-lightbox"{group: 'my-group1'}" title="">
+                      <a href="images/7.jpg" data-uk-lightbox"{group: 'my-group1'}" title="">
+                      <a href="images/8.jpg" data-uk-lightbox"{group: 'my-group1'}" title="">
+                      <a href="images/9.jpg" data-uk-lightbox"{group: 'my-group1'}" title="">
+                      <a href="images/video1.mp4" data-uk-light"{group: 'my-group1'}" title="">
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javaScript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script>
+    $(document).ready(function(){
+
+      $('.sidenav').sidenav();
+    });
+    </script>
+  </body>
+</html>
