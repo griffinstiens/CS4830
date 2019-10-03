@@ -51,7 +51,7 @@
           </div>
           <div class="col s12 m4 l4">
             <h3 class="center">Contact Me</h3>
-            <ul><li>(314)-265-4057</li><li>griffinstiens@gmail.com</li></ul>
+            <ul class="center"><li>(314)-265-4057</li><li>griffinstiens@gmail.com</li></ul>
           </div>
         </div>
       </div>
