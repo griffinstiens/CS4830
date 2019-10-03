@@ -43,14 +43,14 @@
             </p>
           </div>
           <div class="col s12 m4 l4">
-            <h1 class="center">Why are you here?</h1>
+            <h3 class="center">Why are you here?</h3>
             <p>You are here because I most likely sent a resume and/or cover letter to you and listed my personal website.
               The purpose of this is to give you a chance to get a live look at some of the projects I've worked on through my studies
               and outside the classroom.
             </p>
           </div>
           <div class="col s12 m4 l4">
-            <h1 class="center">Contact Me</h1>
+            <h3 class="center">Contact Me</h3>
             <ul><li>(314)-265-4057</li><li>griffinstiens@gmail.com</li></ul>
           </div>
         </div>
