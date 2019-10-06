@@ -30,70 +30,136 @@
   </head>
   <body>
     <nav>
-        <div class="nav-wrapper red darken-4">
+        <div class="nav-wrapper indigo">
             <a href="#!" class="brand-logo center">Portfolio</a>
         </div>
     </nav>
     <div class="container">
-  
         <div class="row">
-          <div class="col s12">
-                    <div class="card-panel red darken-4">
-                      <h1 class="white-text text-darken-4">Challenge #1</h1><br>
-                      <a class="waves-effect waves-light btn-large white red-text" href="pages/firstChallenge.html">View Challenge #1</a>
+            <table>
+                <thead>
+                  <tr>
+                      <th>Project Name</th>
+                      <th></th>
+                      <th></th>
+                  </tr>
+                </thead>
+        
+                <tbody>
+                  <tr>
+                    <td>Challenge 1</td>
+                    <td><a class="btn modal-trigger indigo" href="#challenge1">Learn More</a></td>
+                    <td><a class="btn" href="pages/firstChallenge.html">View Project</a></td>
+                  </tr>
+                  <tr>
+                    <td>Challenge 2</td>
+                    <td><a class="btn modal-trigger indigo" href="#challenge2">Learn More</a></td>
+                    <td><a class="btn" href="pages/challenge2/index.php">View Project</a></td>
+                  </tr>
+                  <tr>
+                    <td>Exploration 1</td>
+                    <td><a class="btn modal-trigger indigo" href="#exploration1">Learn More</a></td>
+                    <td><a class="btn" href="pages/exploration1/index.html">View Project</a></td>
+                  </tr>
+                  <tr>
+                    <td>Exploration 2</td>
+                    <td><a class="btn modal-trigger indigo" href="#exploration2">Learn More</a></td>
+                    <td><a class="btn" href="pages/exploration2/index.html">View Project</a></td>
+                  </tr>
+                  <tr>
+                    <td>E-Commerce Application</td>
+                    <td><a class="btn modal-trigger indigo" href="#ecom">Learn More</a></td>
+                    <td><a class="btn" href="pages/E-CommerceApp/index.html">View Project</a></td>
+                  </tr>
+                  <tr>
+                    <td>Mobile-First</td>
+                    <td><a class="btn modal-trigger indigo" href="#mobile-first">Learn More</a></td>
+                    <td><a class="btn" href="pages/Mobile-First/index.html">View Project</a></td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+
+                <div id="challenge1" class="modal">
+                    <div class="modal-content">
+                        <p>This was the first challenge in Web Application Development II. This project was to demonstrate
+                            I set up my AWS server correctly and was able to display a web page to the public.
+                        </p>
                     </div>
-          </div>
-  
-              <div class="col s12">
-                    <div class="card-panel red darken-4">
-                      <h1 class="white-text text-darken-4">Challenge #2</h1><br>
-                      <a class="waves-effect waves-light btn-large white red-text" href="pages/challenge2/index.php">View Challenge #2</a>
+                    <div class="modal-footer">
+                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
                     </div>
-              </div>
-              <div class="col s12">
-                    <div class="card-panel red darken-4">
-                      <h1 class="white-text text-darken-4">Exploration #1</h1><br>
-                      <a class="waves-effect waves-light btn-large white red-text" href="pages/exploration1/index.html">View Exploration #1</a>
-                    </div>
-              </div>
-  
-              <div class="col s12">
-                <div class="card-panel red darken-4">
-                      <h1 class="white-text text-darken-4">Challenge #3</h1><br>
-                      <a class="waves-effect waves-light btn-large white red-text" href="pages/challenge3/index.html">View Challenge #3</a>
                 </div>
-              </div>
 
-              <div class="col s12">
-                    <div class="card-panel red darken-4">
-                      <h1 class="white-text">Exploration #2</h1><br>
-                      <a class="waves-effect waves-light btn-large white red-text" href="pages/Exploration2/index.html">View Exploration #2</a>
-                    </div>
-              </div>
-
-              <div class="col s12">
-                <div class="card-panel red darken-4">
-                  <h1 class="card-title white-text">Mobile-First</h1><br>
-                  <a class="waves-effect waves-light btn-large white red-text" href="pages/Mobile-Frst/index.html">View Project</a>
+                <div id="challenge2" class="modal">
+                        <div class="modal-content">
+                            <p>This was the second challenge in Web Application Development II. This project rehashed some PHP concepts
+                                learned in a previous course and expand upon them. This project utilizes PHP to select an image,
+                                upload the image to the server, upload that path to the MySQL database and display the image on the
+                                application as well as additional image information.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                        </div>
                 </div>
-              </div>
 
-              <div class="col s12">
-                <div class="card-panel red-darken-4">
-                  <h1 class="card-title white-text">E-Commerce React App w/ Redux, Firebase</h1>
-                  <a class="waves-effect waves-light btn-large white red-text" href="pages/E-CommerceApp/index.html">View Project</a>
+                <div id="exploration1" class="modal">
+                        <div class="modal-content">
+                            <p>This first exploration we were tasked to find a front-end framework that was interesting and to learn
+                                it and implement it into a web application. I chose MaterializeCSS for this exploration where I experimented
+                                with some of the available components.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                        </div>
                 </div>
-              </div>
+                
+                <div id="exploration2" class="modal">
+                        <div class="modal-content">
+                            <p>This was the second exploration where we were tasked to explore a back-end. For this I chose Firebase
+                                and implemented it into a React application. It's a To-Do application, however this is not finished.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                        </div>
+                </div>
+                
+                <div id="ecom" class="modal">
+                        <div class="modal-content">
+                            <p>This is a side project I've been working on in React. It uses a few technologies; Firebase, Redux, Stripe API.
+                                This is an E-Commerce application that allows you to sign in with Google, create an account, sign in and add/remove items
+                                from your cart and checkout.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                        </div>
+                </div>
 
-            </div>
-      </div> <!--end container-->
+                <div id="mobile-first" class="modal">
+                        <div class="modal-content">
+                            <p>This is a project from a previous course that demonstrates building a website utilizing the "mobile first"
+                                principle.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                        </div>
+                </div>
+
+
+
+    </div> <!--end container-->
       <div class="fixed-action-btn">
-          <a class="btn-floating btn-large red darken-4" href="index.php">
+          <a class="btn-floating pulse btn-large red darken-4" href="index.php">
             <i class="large material-icons">home</i>
           </a>
-        </div>
-      <script>
-          M.AutoInit();
-        </script>
+      </div>
+    <script>
+        M.AutoInit();
+    </script>
   </body>
 </html>
