@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.9b4ccad4.chunk.css",
-    "main.js": "/static/js/main.cbbd91d0.chunk.js",
-    "main.js.map": "/static/js/main.cbbd91d0.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.077bb605.js",
-    "runtime~main.js.map": "/static/js/runtime~main.077bb605.js.map",
-    "static/js/2.203b06d3.chunk.js": "/static/js/2.203b06d3.chunk.js",
-    "static/js/2.203b06d3.chunk.js.map": "/static/js/2.203b06d3.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.94067aee4a52e8c613e43d7d9de2d26f.js": "/precache-manifest.94067aee4a52e8c613e43d7d9de2d26f.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.9b4ccad4.chunk.css.map": "/static/css/main.9b4ccad4.chunk.css.map",
-    "static/media/crown.ed28accb.svg": "/static/media/crown.ed28accb.svg",
-    "static/media/shopping-bag.30f07071.svg": "/static/media/shopping-bag.30f07071.svg"
+    "main.css": "/pages/E-CommerceApp/static/css/main.9b4ccad4.chunk.css",
+    "main.js": "/pages/E-CommerceApp/static/js/main.cbbd91d0.chunk.js",
+    "main.js.map": "/pages/E-CommerceApp/static/js/main.cbbd91d0.chunk.js.map",
+    "runtime~main.js": "/pages/E-CommerceApp/static/js/runtime~main.d641a245.js",
+    "runtime~main.js.map": "/pages/E-CommerceApp/static/js/runtime~main.d641a245.js.map",
+    "static/js/2.7cc59fda.chunk.js": "/pages/E-CommerceApp/static/js/2.7cc59fda.chunk.js",
+    "static/js/2.7cc59fda.chunk.js.map": "/pages/E-CommerceApp/static/js/2.7cc59fda.chunk.js.map",
+    "index.html": "/pages/E-CommerceApp/index.html",
+    "precache-manifest.c40acdffafdb622f2520b96c1ef2be94.js": "/pages/E-CommerceApp/precache-manifest.c40acdffafdb622f2520b96c1ef2be94.js",
+    "service-worker.js": "/pages/E-CommerceApp/service-worker.js",
+    "static/css/main.9b4ccad4.chunk.css.map": "/pages/E-CommerceApp/static/css/main.9b4ccad4.chunk.css.map",
+    "static/media/crown.ed28accb.svg": "/pages/E-CommerceApp/static/media/crown.ed28accb.svg",
+    "static/media/shopping-bag.30f07071.svg": "/pages/E-CommerceApp/static/media/shopping-bag.30f07071.svg"
   }
 }
