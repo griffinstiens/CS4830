@@ -4,6 +4,7 @@ var bodyParser = require('body-parser');
 var cors = require('cors');
 const knex = require('knex');
 const bcrypt = require('bcryptjs');
+const pg = require('pg');
 
 const SERVER_PORT = 5000;
 
@@ -12,7 +13,7 @@ const db = knex ({
     connection: {
         host: 'localhost',
         user: 'postgres',
-        password: 'GsC!19954gjke',
+        password: '',
         database: 'facerec'
     }
 });
