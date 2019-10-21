@@ -11,9 +11,9 @@ const SERVER_PORT = 5000;
 const db = knex ({
     client: 'pg',
     connection: {
-        host: 'localhost',
+        host: 'https://www.griffinstiens.me',
         user: 'postgres',
-        password: '',
+        password: 'GsC!19954gjke',
         database: 'facerec'
     }
 });
