@@ -6,14 +6,14 @@ const knex = require('knex');
 const bcrypt = require('bcryptjs');
 const pg = require('pg');
 
-const SERVER_PORT = 5000;
+const SERVER_PORT = 5001;
 
 const db = knex ({
     client: 'pg',
     connection: {
-        host: 'https://www.griffinstiens.me',
-        user: 'postgres',
-        password: 'GsC!19954gjke',
+        host: 'localhost',
+        user: '',
+        password: '',
         database: 'facerec'
     }
 });
