@@ -11,4 +11,7 @@ import scrapy
 class Challenge6Item(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    #pass
+    name = scrapy.Field()
+    pieces = scrapy.Field()
+    image = scrapy.Field()
