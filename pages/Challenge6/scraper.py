@@ -6,7 +6,7 @@ class SpideyBoi(scrapy.Spider):
 
     def parse(self, response):
         SET_SELECTOR = '.set'
-        /*  */
+       
         PIECES_SELECTOR = './/dl[dt/text() = "Pieces"]/dd/a/text()'
         
         for item in response.css(SET_SELECTOR):
