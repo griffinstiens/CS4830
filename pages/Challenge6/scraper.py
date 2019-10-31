@@ -12,8 +12,10 @@ class SpideyBoi(scrapy.Spider):
             NAME_SELECTOR = 'h1 ::text'
             PIECES_SELECTOR = './/dl[dt/text() = "Pieces"]/dd/a/text()'
             MINIFIGS_SELECTOR = './/dl[dt/text() = "Minifigs"]/dd/a/text()'
+            IMAGE_SELECTOR = 'img ::attr(src)'
             yield {
                 'name': item.css(NAME_SELECTOR).extract_first(),
-                'pieces': item.xpath(PIECES_SELECTOR).extract_first(),
-                'figs': item.xpath(MINIFIGS_SELECTOR).extract_first()
+                'piece_count': item.xpath(PIECES_SELECTOR).extract_first(),
+                'fig_count': item.xpath(MINIFIGS_SELECTOR).extract_first(),
+                'image': item.css(IMAGE_SELECTOR).extract_first()
             }
