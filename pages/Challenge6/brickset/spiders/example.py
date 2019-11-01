@@ -1,6 +1,6 @@
 import scrapy
 
-import items
+from .. import *
 
 class BrickSetSpider(scrapy.Spider):
     name = "brickset_spider"
