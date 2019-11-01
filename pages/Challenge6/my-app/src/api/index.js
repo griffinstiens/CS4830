@@ -7,11 +7,10 @@ let url = 'mongodb://localhost:27017/brickset';
 MongoClient.connect(url, function(err, db) {
     console.log("Connection successful!");
 
-    let cursor = db.collection('sets').find();
+    const connection = database.db('brickset');
+    connection.collection('sets').find();
 
-    cursor.each(function(err, doc) {
-        console.log(doc);
-    })
+   
 
     db.close();
 });
