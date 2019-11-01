@@ -68,6 +68,15 @@ ROBOTSTXT_OBEY = True
 #    'challenge6.pipelines.Challenge6Pipeline': 300,
 #}
 
+ITEM_PIPELINES = {
+   'challenge6.pipelines.MongoDBPipeline': 300,
+}
+
+MONGODB_SERVER = 'localhost'
+MONGODB_PORT = 27017
+MONGODB_DB = 'challenge6'
+MONGODB_COLLECTION = 'sets'
+
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
 #AUTOTHROTTLE_ENABLED = True
