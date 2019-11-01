@@ -1,6 +1,6 @@
 import scrapy
 
-import items
+from challenge6.items import Challenge6Item
 
 class ExampleSpider(scrapy.Spider):
    name = "brickset_spider"
