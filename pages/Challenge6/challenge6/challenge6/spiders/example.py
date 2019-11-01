@@ -3,7 +3,7 @@ import scrapy
 from .. import items
 
 class ExampleSpider(scrapy.Spider):
-   name = "brickset_spider"
+   name = "example"
    start_urls = ['http://brickset.com/sets/year-2018']
 
    def parse(self, response):
