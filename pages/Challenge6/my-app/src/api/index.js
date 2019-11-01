@@ -12,7 +12,8 @@ MongoClient.connect(url, (err, brickset) => {
     db = brickset.db('brickset');
 
     let cursor = db.collection('sets').find();
+    console.log(cursor);
 
-    db.close();
+    brickset.close();
 });
 
