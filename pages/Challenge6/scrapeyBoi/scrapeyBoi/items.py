@@ -12,3 +12,5 @@ from scrapy.item import Item, Field
 class ScrapeyboiItem(scrapy.Item):
     title = Field()
     url = Field()
+    updoots = Field()
+    excerpt = Field()

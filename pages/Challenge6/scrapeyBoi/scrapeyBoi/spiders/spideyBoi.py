@@ -8,7 +8,7 @@ class SpideyboiSpider(scrapy.Spider):
     name = 'spideyBoi'
     allowed_domains = ['stackoverflow.com']
     start_urls = [
-        'http://stackoverflow.com/questions?pagesize=50&sort=newest'
+        'http://stackoverflow.com/search?tab=relevance&q=react'
     ]
 
     def parse(self, response):
@@ -21,6 +21,8 @@ class SpideyboiSpider(scrapy.Spider):
             ).extract()[0],
             item['url'] = question.xpath(
                 'a[@class="question-hyperlink"]/@href'
+            ).extract()[0],
+            item['excerpt'] = question.xpath(
+                'div[@class="excerpt"]/text()'
             ).extract()[0]
-
             yield item
