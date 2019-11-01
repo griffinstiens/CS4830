@@ -8,7 +8,7 @@
 
 import pymongo
 
-from scrapy.conf import settings
+from scrapy.cfg import settings
 from scrapy.exceptions import DropItem
 import logging
 
