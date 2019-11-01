@@ -1,5 +1,5 @@
 const express = require('express');
-const MongoClient = require('mongodb').MongoClient;
+const MongoClient = require('mongodb');
 
 
 let url = 'mongodb://localhost:27017/brickset';
