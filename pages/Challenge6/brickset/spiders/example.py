@@ -1,6 +1,8 @@
+# -*- coding: utf-8 -*-
 import scrapy
 
-from .. import items.py
+#from brickset.items import BricksetItem
+from .. import items
 
 class BrickSetSpider(scrapy.Spider):
     name = "brickset_spider"
