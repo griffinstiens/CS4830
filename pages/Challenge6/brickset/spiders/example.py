@@ -1,8 +1,6 @@
-# -*- coding: utf-8 -*-
 import scrapy
 
-#from brickset.items import BricksetItem
-from .. import items
+from ..brickset import items
 
 class BrickSetSpider(scrapy.Spider):
     name = "brickset_spider"
@@ -22,14 +20,3 @@ class BrickSetSpider(scrapy.Spider):
             item['image'] = brickset.css(IMAGE_SELECTOR).extract_first()
 
             yield item
-#            yield {
-#                'name': brickset.css(NAME_SELECTOR).extract_first(),
-#                'pieces': brickset.xpath(PIECES_SELECTOR).extract_first(),
-#                'image': brickset.css(IMAGE_SELECTOR).extract_first()
-#            }
-
-
-#        NEXT_PAGE_SELECTOR = '.next a ::attr(href)'
-#        next_page = response.css(NEXT_PAGE_SELECTOR).extract_first()
-#        if next_page:
-#            yield scrapy.Request(response.urljoin(next_page), callback = self.parse)
