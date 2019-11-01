@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for challenge6 project
+# Scrapy settings for brickset project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'challenge6'
+BOT_NAME = 'brickset'
 
-SPIDER_MODULES = ['challenge6.spiders']
-NEWSPIDER_MODULE = 'challenge6.spiders'
+SPIDER_MODULES = ['brickset.spiders']
+NEWSPIDER_MODULE = 'brickset.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'challenge6 (+http://www.yourdomain.com)'
+#USER_AGENT = 'brickset (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -47,13 +47,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'challenge6.middlewares.Challenge6SpiderMiddleware': 543,
+#    'brickset.middlewares.BricksetSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'challenge6.middlewares.Challenge6DownloaderMiddleware': 543,
+#    'brickset.middlewares.BricksetDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -65,17 +65,17 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'challenge6.pipelines.Challenge6Pipeline': 300,
+#    'brickset.pipelines.BricksetPipeline': 300,
 #}
 
 ITEM_PIPELINES = {
-   'challenge6.pipelines.MongoDBPipeline': 300,
+    'brickset.pipelines.MongoDBPipeline': 300,
 }
 
-MONGODB_SERVER = 'localhost'
+MONGODB_SERVER = "localhost"
 MONGODB_PORT = 27017
-MONGODB_DB = 'challenge6'
-MONGODB_COLLECTION = 'sets'
+MONGODB_DB = "brickset"
+MONGODB_COLLECTION = "sets"
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
