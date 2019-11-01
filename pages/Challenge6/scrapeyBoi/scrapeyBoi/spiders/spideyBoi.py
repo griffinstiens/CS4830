@@ -22,7 +22,7 @@ class SpideyboiSpider(scrapy.Spider):
             item['url'] = question.xpath(
                 'a[@class="question-hyperlink"]/@href'
             ).extract()[0],
-            item['excerpt'] = question.xpath(
-                'div[@class="excerpt"]/text()'
-            ).extract()[0]
+            # item['excerpt'] = question.xpath(
+            #     'div[@class="excerpt"]/text()'
+            # ).extract()[0]
             yield item
