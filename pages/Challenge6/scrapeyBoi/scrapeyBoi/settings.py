@@ -27,7 +27,7 @@ ITEM_PIPELINES = {
 
 MONGODB_SERVER = "localhost"
 MONGODB_PORT = 27017
-MONGODB_DB = "challenge6"
+MONGODB_DB = "brickset"
 MONGODB_COLLECTION = "sets"
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
